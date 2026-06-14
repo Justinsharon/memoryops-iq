@@ -242,186 +242,111 @@ MTTR Improvement
 
 
 
-Architecture--
 
-┌──────────────────────────────────────────────────────────────────────────────┐
-│                         MEMORYOPS IQ ARCHITECTURE                           │
-│            Enterprise Memory & Incident Reasoning Platform                  │
-└──────────────────────────────────────────────────────────────────────────────┘
+# MemoryOps IQ — Architecture
 
+## Architecture Diagram
 
-┌──────────────────────────────────────────────────────────────────────────────┐
-│                             USER INTERACTION                                │
-├──────────────────────────────────────────────────────────────────────────────┤
-│ Incident Description                                                        │
-│ Service Desk Ticket                                                         │
-│ Operations Engineer Query                                                   │
-└──────────────────────────────────────────────────────────────────────────────┘
-                                        │
-                                        ▼
-
-┌──────────────────────────────────────────────────────────────────────────────┐
-│                 ORCHESTRATOR / SUPERVISOR AGENT                             │
-│                 Microsoft Foundry Agent Service                             │
-│                                                                              │
-│ Workflow Routing • Agent Coordination • State Management                    │
-└──────────────────────────────────────────────────────────────────────────────┘
-                                        │
-                                        ▼
-
-
-══════════════════════════════════════════════════════════════════════════════════
-                          INCIDENT UNDERSTANDING LAYER
-══════════════════════════════════════════════════════════════════════════════════
-
-┌──────────────────────────────┐
-│ Incident Understanding Agent │
-│ GPT-4.1 Mini                 │
-│                              │
-│ Service Detection            │
-│ Region Classification        │
-│ Category Classification      │
-└──────────────────────────────┘
-               │
-               ▼
-
-
-══════════════════════════════════════════════════════════════════════════════════
-                           ENTERPRISE MEMORY LAYER
-══════════════════════════════════════════════════════════════════════════════════
-
-             ┌─────────────────────────────────────┐
-             │ Foundry IQ Agent (GPT-4o)           │
-             │ Enterprise Grounded Retrieval       │
-             └─────────────────────────────────────┘
-
-                           │
-
-         ┌─────────────────┼─────────────────┐
-         ▼                 ▼                 ▼
-
- Incident Tickets     RCA Documents      Runbooks
-
-         ▼                 ▼                 ▼
-
- Change Records     Knowledge Articles    Historical Data
-
-
-                           │
-                           ▼
-
-┌──────────────────────────────────────────────────────────────────────────────┐
-│ Azure AI Search + Embedding Model                                            │
-│                                                                              │
-│ Vectorized Enterprise Memory                                                 │
-│ Semantic Search                                                              │
-│ Metadata Search                                                              │
-│ Citation Retrieval                                                           │
-└──────────────────────────────────────────────────────────────────────────────┘
-
-
-══════════════════════════════════════════════════════════════════════════════════
-                       CROSS VALIDATION & MEMORY FUSION
-══════════════════════════════════════════════════════════════════════════════════
-
-┌─────────────────────────────┐        ┌─────────────────────────────┐
-│ Similar Incident Agent      │        │ Change Correlation Agent    │
-│ GPT-4o                      │        │ GPT-4.1 Mini               │
-│                             │        │                             │
-│ Local Incident RAG          │        │ Change Intelligence         │
-│ Historical Ranking          │        │ Trigger Detection           │
-│ Similarity Scoring          │        │ Correlation Scoring         │
-└─────────────────────────────┘        └─────────────────────────────┘
-
-                  │                         │
-                  └─────────────┬───────────┘
-                                ▼
-
-┌──────────────────────────────────────────────────────────────────────────────┐
-│ KNOWLEDGE FUSION AGENT                                                      │
-│                                                                              │
-│ Cross Validates:                                                             │
-│                                                                              │
-│ ✓ Foundry IQ Retrieval                                                       │
-│ ✓ Similar Incident Matches                                                   │
-│ ✓ Change Correlations                                                        │
-│ ✓ Runbook Evidence                                                           │
-│ ✓ Historical RCA Evidence                                                    │
-│                                                                              │
-│ Produces:                                                                    │
-│                                                                              │
-│ Unified Enterprise Memory                                                    │
-│ Confidence Score                                                             │
-│ Evidence Summary                                                             │
-└──────────────────────────────────────────────────────────────────────────────┘
-
-
-══════════════════════════════════════════════════════════════════════════════════
-                            REASONING LAYER
-══════════════════════════════════════════════════════════════════════════════════
-
-┌──────────────────────────────────────────────────────────────────────────────┐
-│ RCA / Pattern Reasoning Agent                                                │
-│ o3-mini                                                                      │
-│                                                                              │
-│ Multi-Step Reasoning                                                         │
-│ Historical Correlation                                                       │
-│ Pattern Recognition                                                          │
-│ Root Cause Prediction                                                        │
-│ Confidence Calculation                                                       │
-└──────────────────────────────────────────────────────────────────────────────┘
-
-
-══════════════════════════════════════════════════════════════════════════════════
-                           ACTION GENERATION LAYER
-══════════════════════════════════════════════════════════════════════════════════
-
-       ┌────────────────┐   ┌────────────────┐   ┌────────────────┐
-       │ Remediation    │   │ Investigation  │   │ Impact Agent   │
-       │ Planning Agent │   │ Agent          │   │ GPT-4o         │
-       │ Grok 4         │   │ Grok 4         │   │                │
-       └────────────────┘   └────────────────┘   └────────────────┘
-
-                │                  │                  │
-                └──────────┬───────┴──────────┬───────┘
-                           ▼                  ▼
-
-
-                   Recommended Actions
-
-                   Escalation Paths
-
-                   Deep Dive Steps
-
-                   Business Impact
-
-
-══════════════════════════════════════════════════════════════════════════════════
-                           EXECUTIVE INTELLIGENCE
-══════════════════════════════════════════════════════════════════════════════════
-
-┌──────────────────────────────────────────────────────────────────────────────┐
-│ Executive Summary Agent                                                      │
-│ Grok 4                                                                        │
-│                                                                              │
-│ Technical Summary                                                            │
-│ Business Summary                                                             │
-│ MTTR Reduction Estimate                                                      │
-│ Stakeholder Communication                                                    │
-└──────────────────────────────────────────────────────────────────────────────┘
-
-
-══════════════════════════════════════════════════════════════════════════════════
-                                 DASHBOARD
-══════════════════════════════════════════════════════════════════════════════════
-
-┌──────────────────────────────────────────────────────────────────────────────┐
-│ Overview                                                                     │
-│ Similar Changes                                                              │
-│ Similar Incidents                                                            │
-│ RCA Analysis                                                                 │
-│ Recommendations                                                              │
-│ Investigation                                                                │
-│ Executive Summary                                                            │
-└──────────────────────────────────────────────────────────────────────────────┘
-
+````
+┌─────────────────────────────────────────────────────────────────────┐
+│                    1. USER INTERACTION LAYER                        │
+│                                                                     │
+│  ┌──────────────────┐  ┌──────────────────┐  ┌──────────────────┐  │
+│  │ Operations       │  │ Service Desk     │  │ Incident Query   │  │
+│  │ Engineer         │  │ Ticket           │  │ (Natural Lang.)  │  │
+│  └────────┬─────────┘  └────────┬─────────┘  └────────┬─────────┘  │
+└───────────┼────────────────────┼────────────────────┼─────────────┘
+            └────────────────────┼────────────────────┘
+                                 ▼
+┌─────────────────────────────────────────────────────────────────────┐
+│               ORCHESTRATOR / SUPERVISOR AGENT                       │
+│                  Microsoft Foundry Agent Service                    │
+│   Workflow Orchestration · Agent Routing · State Mgmt · Guardrails  │
+└─────────────────────────────────┬───────────────────────────────────┘
+                                  │
+                                  ▼
+┌─────────────────────────────────────────────────────────────────────┐
+│         2. INCIDENT UNDERSTANDING & ENTERPRISE RETRIEVAL            │
+│                                                                     │
+│  ┌───────────────────────┐  ┌───────────────────────┐  ┌─────────┐ │
+│  │ Incident Understanding│  │   Foundry IQ Agent    │  │Knowledge│ │
+│  │   Agent (GPT-4.1 Mini)│→ │      (GPT-4o)         │→ │ Stores  │ │
+│  │                       │  │                       │  │         │ │
+│  │ · Service detection   │  │ · Enterprise retrieval│  │Incidents│ │
+│  │ · Region classif.     │  │ · Semantic search     │  │RCA docs │ │
+│  │ · Severity inference  │  │ · Hybrid search       │  │Runbooks │ │
+│  │                       │  │ · Citation retrieval  │  │Changes  │ │
+│  └───────────────────────┘  └───────────────────────┘  └─────────┘ │
+└─────────────────────────────────┬───────────────────────────────────┘
+                                  │
+                                  ▼
+┌─────────────────────────────────────────────────────────────────────┐
+│            3. LOCAL INTELLIGENCE & CROSS-VALIDATION                 │
+│                                                                     │
+│  ┌───────────────────────┐  ┌───────────────────────┐  ┌─────────┐ │
+│  │ Similar Incident Agent│  │Change Correlation Agent│ │Knowledge│ │
+│  │      (GPT-4o)         │→ │   (GPT-4.1 Mini)       │→│ Fusion  │ │
+│  │                       │  │                        │ │  Agent  │ │
+│  │ · Local RAG           │  │ · Change intelligence  │ │         │ │
+│  │ · Historical ranking  │  │ · Trigger detection    │ │Unified  │ │
+│  │ · Similarity scoring  │  │ · Correlation scoring  │ │memory   │ │
+│  │ · Best match select   │  │ · Confidence calc.     │ │+ Score  │ │
+│  └───────────────────────┘  └───────────────────────┘  └─────────┘ │
+└─────────────────────────────────┬───────────────────────────────────┘
+                                  │
+                                  ▼
+┌─────────────────────────────────────────────────────────────────────┐
+│                      4. REASONING LAYER                             │
+│                                                                     │
+│         ┌──────────────────────────────────────────┐               │
+│         │   RCA / Pattern Reasoning Agent (o3-mini) │               │
+│         │                                           │               │
+│         │ · Multi-step reasoning                    │               │
+│         │ · Root cause prediction                   │               │
+│         │ · Historical correlation                  │               │
+│         │ · Pattern recognition                     │               │
+│         │ · Confidence scoring & evidence weighting │               │
+│         └──────────────────────────────────────────┘               │
+└─────────────────────────────────┬───────────────────────────────────┘
+                                  │
+                                  ▼
+┌─────────────────────────────────────────────────────────────────────┐
+│                      5. ACTION AGENTS                               │
+│                                                                     │
+│  ┌───────────────────┐  ┌───────────────────┐  ┌─────────────────┐ │
+│  │  Remediation      │  │  Investigation    │  │  Impact Agent   │ │
+│  │  Planning Agent   │  │  Agent (Grok 4)   │  │  (GPT-4o)       │ │
+│  │  (Grok 4)         │  │                   │  │                 │ │
+│  │ · Recommended     │  │ · New hypotheses  │  │ · Users affected│ │
+│  │   actions         │  │ · Additional      │  │ · Business      │ │
+│  │ · Runbooks &      │  │   checks          │  │   impact        │ │
+│  │   playbooks       │  │ · Deep dive steps │  │ · MTTR improv.  │ │
+│  │ · Escalation paths│  │ · Escalation guide│  │ · Pot. downtime │ │
+│  └─────────┬─────────┘  └────────┬──────────┘  └───────┬─────────┘ │
+└────────────┼────────────────────┼───────────────────────┼───────────┘
+             └────────────────────┼───────────────────────┘
+                                  ▼
+┌─────────────────────────────────────────────────────────────────────┐
+│                  6. EXECUTIVE INTELLIGENCE LAYER                    │
+│                                                                     │
+│         ┌──────────────────────────────────────────┐               │
+│         │     Executive Summary Agent (Grok 4)      │               │
+│         │                                           │               │
+│         │ · Technical summary                       │               │
+│         │ · Business summary                        │               │
+│         │ · Stakeholder briefing                    │               │
+│         │ · MTTR reduction estimate                 │               │
+│         │ · Next steps & communication              │               │
+│         └──────────────────────────────────────────┘               │
+└─────────────────────────────────┬───────────────────────────────────┘
+                                  │
+                                  ▼
+┌─────────────────────────────────────────────────────────────────────┐
+│           7. OUTPUT & EXPERIENCE — MemoryOps IQ Dashboard           │
+│                                                                     │
+│  ┌──────────┐ ┌──────────┐ ┌──────────┐ ┌──────────┐ ┌──────────┐ │
+│  │ Overview │ │ Similar  │ │   RCA    │ │  Recom-  │ │Executive │ │
+│  │At-a-glance│ │ Incidents│ │ Analysis │ │mendations│ │ Summary  │ │
+│  │& insights│ │& Changes │ │Root cause│ │ Runbooks │ │MTTR·Brief│ │
+│  └──────────┘ └──────────┘ └──────────┘ └──────────┘ └──────────┘ │
+└─────────────────────────────────────────────────────────────────────┘
