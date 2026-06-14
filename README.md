@@ -350,3 +350,90 @@ MTTR Improvement
 │  │& insights│ │& Changes │ │Root cause│ │ Runbooks │ │MTTR·Brief│ │
 │  └──────────┘ └──────────┘ └──────────┘ └──────────┘ └──────────┘ │
 └─────────────────────────────────────────────────────────────────────┘
+
+
+
+
+Installation & Setup
+1. Clone Repository
+git clone https://github.com/<username>/memoryops-iq.git
+
+cd memoryops-iq
+
+2. Create Virtual Environment
+Windows
+python -m venv .venv
+
+.venv\Scripts\activate
+Linux / Mac
+python3 -m venv .venv
+
+source .venv/bin/activate
+
+
+3. Install Backend Dependencies
+pip install -r requirements.txt
+4. Start FastAPI Backend
+uvicorn app:app --reload
+
+Expected Output:
+
+INFO: Uvicorn running on http://127.0.0.1:8000
+
+INFO: Application startup complete.
+
+
+5. Verify API
+
+Open:
+
+http://127.0.0.1:8000/docs
+
+Swagger UI should appear showing available API endpoints.
+
+6. Start Frontend
+
+Open a new terminal:
+
+cd frontend
+
+npm install
+
+npm run dev
+
+Expected Output:
+
+VITE vX.X.X ready
+
+Local: http://localhost:5173/
+
+
+7. Open Application
+
+Navigate to:
+
+http://localhost:5173
+
+You should see the MemoryOps IQ dashboard.
+
+Running a Demo
+
+Example Incident:
+
+DNS resolution failures across APAC after DNS zone update.
+Multiple enterprise users unable to access internal applications following a high-risk DNS configuration change.
+
+Click:
+
+Analyze
+
+MemoryOps IQ will generate:
+
+Overview
+Similar Changes
+Similar Incidents
+Root Cause Analysis
+Recommendations
+Investigation Plan
+Executive Summary
+
