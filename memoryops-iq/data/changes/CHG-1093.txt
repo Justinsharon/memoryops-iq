@@ -1,0 +1,40 @@
+
+CHANGE RECORD
+
+Change ID: CHG-1093
+
+Service:
+BGP
+
+Region:
+West Europe
+
+Change Type:
+Routing Configuration Change
+
+Risk Level:
+Medium
+
+Change Start:
+2026-06-06 21:31:27
+
+Change End:
+2026-06-06 22:16:27
+
+Implemented By:
+Cloud Operations Team
+
+Approval Status:
+Emergency Approved
+
+Implementation Summary:
+A planned change was implemented affecting BGP.
+
+Validation Result:
+Passed with Warnings
+
+Rollback Plan:
+Rollback to previous known-good configuration.
+
+Status:
+Failed

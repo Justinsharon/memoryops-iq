@@ -1,0 +1,29 @@
+[
+{
+"id": 1,
+"symptoms": [
+"VPN outage",
+"BGP instability",
+"Firewall update"
+],
+"expected_root_cause": "BGP route propagation failure"
+},
+{
+"id": 2,
+"symptoms": [
+"Login failures",
+"Conditional access change",
+"MFA errors"
+],
+"expected_root_cause": "Conditional access policy misconfiguration"
+},
+{
+"id": 3,
+"symptoms": [
+"Certificate warnings",
+"HTTPS failure",
+"Recent certificate renewal missed"
+],
+"expected_root_cause": "Expired certificate"
+}
+]

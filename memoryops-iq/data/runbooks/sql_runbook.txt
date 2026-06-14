@@ -1,0 +1,19 @@
+RUNBOOK
+
+Service: SQL
+
+Purpose:
+Standard troubleshooting procedure for SQL incidents.
+
+Procedure:
+
+1. Check database connectivity
+2. Review active sessions
+3. Inspect deadlocks
+4. Validate maintenance activities
+
+Escalation:
+Contact Platform Operations Team
+
+Success Criteria:
+Service restored and monitoring alerts cleared.

@@ -1,0 +1,40 @@
+
+CHANGE RECORD
+
+Change ID: CHG-1043
+
+Service:
+Storage
+
+Region:
+APAC
+
+Change Type:
+Access Policy Modification
+
+Risk Level:
+High
+
+Change Start:
+2026-06-08 09:31:27
+
+Change End:
+2026-06-08 10:30:27
+
+Implemented By:
+Infrastructure Team
+
+Approval Status:
+Approved
+
+Implementation Summary:
+A planned change was implemented affecting Storage.
+
+Validation Result:
+Passed
+
+Rollback Plan:
+Rollback to previous known-good configuration.
+
+Status:
+Successful

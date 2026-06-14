@@ -1,0 +1,185 @@
+
+RAW GPT RESPONSE:
+{
+    "service": "VPN",
+    "region": "APAC",
+    "category": "Network"
+}
+
+[PASS] Test Case 1
+Input: VPN outage in APAC after firewall update
+Expected: {'service': 'VPN', 'region': 'APAC', 'category': 'Network'}
+Got: {'service': 'VPN', 'region': 'APAC', 'category': 'Network'}
+
+RAW GPT RESPONSE:
+{
+    "service": "Entra",
+    "region": "Global",
+    "category": "Authentication"
+}
+
+[PASS] Test Case 2
+Input: Users unable to authenticate after Entra policy change
+Expected: {'service': 'Identity', 'region': 'Global', 'category': 'Security'}
+Got: {'service': 'Identity', 'region': 'Global', 'category': 'Security'}
+
+RAW GPT RESPONSE:
+{
+    "service": "Azure Storage",
+    "region": "East US",
+    "category": "Availability"
+}
+
+[FAIL] Test Case 3
+Input: Azure Storage account unavailable in East US
+Expected: {'service': 'Storage', 'region': 'East US', 'category': 'Cloud'}
+Got: {'service': 'Azure Storage', 'region': 'East US', 'category': 'Availability'}
+
+RAW GPT RESPONSE:
+{
+    "service": "DNS",
+    "region": "Global",
+    "category": "Network"
+}
+
+[PASS] Test Case 4
+Input: DNS resolution failures affecting customer applications
+Expected: {'service': 'DNS', 'region': 'Global', 'category': 'Network'}
+Got: {'service': 'DNS', 'region': 'Global', 'category': 'Network'}
+
+RAW GPT RESPONSE:
+{
+    "service": "Key Vault",
+    "region": "Unknown",
+    "category": "Access"
+}
+
+[FAIL] Test Case 5
+Input: Key Vault access denied after RBAC modification
+Expected: {'service': 'Key Vault', 'region': 'Global', 'category': 'Security'}
+Got: {'service': 'Key Vault', 'region': 'Unknown', 'category': 'Access'}
+
+RAW GPT RESPONSE:
+{
+    "service": "App Service",
+    "region": "",
+    "category": "Deployment"
+}
+
+[FAIL] Test Case 6
+Input: App Service deployment failed after CI/CD pipeline update
+Expected: {'service': 'App Service', 'region': 'Global', 'category': 'Cloud'}
+Got: {'service': 'App Service', 'region': '', 'category': 'Deployment'}
+
+RAW GPT RESPONSE:
+{
+    "service": "BGP",
+    "region": "Global",
+    "category": "Network"
+}
+
+[FAIL] Test Case 7
+Input: BGP route instability causing intermittent connectivity
+Expected: {'service': 'Routing', 'region': 'APAC', 'category': 'Network'}
+Got: {'service': 'BGP', 'region': 'Global', 'category': 'Network'}
+
+RAW GPT RESPONSE:
+{
+    "service": "HTTPS",
+    "region": "Global",
+    "category": "Security"
+}
+
+[FAIL] Test Case 8
+Input: Certificate expired causing HTTPS failures
+Expected: {'service': 'Certificate', 'region': 'Global', 'category': 'Security'}
+Got: {'service': 'HTTPS', 'region': 'Global', 'category': 'Security'}
+
+RAW GPT RESPONSE:
+{
+    "service": "Azure SQL",
+    "region": "unknown",
+    "category": "Database"
+}
+
+[FAIL] Test Case 9
+Input: Azure SQL database unavailable during maintenance window
+Expected: {'service': 'SQL', 'region': 'East US', 'category': 'Cloud'}
+Got: {'service': 'Azure SQL', 'region': 'unknown', 'category': 'Database'}
+
+RAW GPT RESPONSE:
+{
+    "service": "VPN",
+    "region": "Unknown",
+    "category": "Network"
+}
+
+[FAIL] Test Case 10
+Input: Firewall ACL change blocking VPN users
+Expected: {'service': 'Firewall', 'region': 'APAC', 'category': 'Network'}
+Got: {'service': 'VPN', 'region': 'Unknown', 'category': 'Network'}
+
+RAW GPT RESPONSE:
+{
+    "service": "MFA",
+    "region": "Global",
+    "category": "Authentication"
+}
+
+[FAIL] Test Case 11
+Input: Users experiencing MFA failures after conditional access update
+Expected: {'service': 'Identity', 'region': 'Global', 'category': 'Security'}
+Got: {'service': 'MFA', 'region': 'Global', 'category': 'Security'}
+
+RAW GPT RESPONSE:
+{
+    "service": "DNS",
+    "region": "APAC",
+    "category": "Network"
+}
+
+[PASS] Test Case 12
+Input: DNS resolution failing across APAC region
+Expected: {'service': 'DNS', 'region': 'APAC', 'category': 'Network'}
+Got: {'service': 'DNS', 'region': 'APAC', 'category': 'Network'}
+
+RAW GPT RESPONSE:
+{
+    "service": "Azure SQL",
+    "region": "Unknown",
+    "category": "Database"
+}
+
+[FAIL] Test Case 13
+Input: Azure SQL connections timing out during maintenance
+Expected: {'service': 'SQL', 'region': 'East US', 'category': 'Cloud'}
+Got: {'service': 'Azure SQL', 'region': 'Unknown', 'category': 'Database'}
+
+RAW GPT RESPONSE:
+{
+    "service": "HTTPS",
+    "region": "Global",
+    "category": "Security"
+}
+
+[FAIL] Test Case 14
+Input: Certificate expiration causing HTTPS errors
+Expected: {'service': 'Certificate', 'region': 'Global', 'category': 'Security'}
+Got: {'service': 'HTTPS', 'region': 'Global', 'category': 'Security'}
+
+RAW GPT RESPONSE:
+{
+    "service": "App Service",
+    "region": "Unknown",
+    "category": "Deployment"
+}
+
+[FAIL] Test Case 15
+Input: App Service deployment failed after CI CD pipeline execution
+Expected: {'service': 'App Service', 'region': 'Global', 'category': 'Cloud'}
+Got: {'service': 'App Service', 'region': 'Unknown', 'category': 'Deployment'}
+
+========================
+Passed: 4/15
+Accuracy: 26.67%
+========================

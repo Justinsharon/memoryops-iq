@@ -1,0 +1,40 @@
+
+CHANGE RECORD
+
+Change ID: CHG-1087
+
+Service:
+BGP
+
+Region:
+Global
+
+Change Type:
+Route Policy Update
+
+Risk Level:
+Medium
+
+Change Start:
+2026-05-18 18:31:27
+
+Change End:
+2026-05-18 18:54:27
+
+Implemented By:
+Platform Engineering Team
+
+Approval Status:
+Standard Approved
+
+Implementation Summary:
+A planned change was implemented affecting BGP.
+
+Validation Result:
+Passed with Warnings
+
+Rollback Plan:
+Rollback to previous known-good configuration.
+
+Status:
+Successful

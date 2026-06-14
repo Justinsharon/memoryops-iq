@@ -1,0 +1,40 @@
+
+CHANGE RECORD
+
+Change ID: CHG-1066
+
+Service:
+Key Vault
+
+Region:
+West Europe
+
+Change Type:
+Access Policy Change
+
+Risk Level:
+Low
+
+Change Start:
+2026-06-07 14:31:27
+
+Change End:
+2026-06-07 15:13:27
+
+Implemented By:
+Cloud Operations Team
+
+Approval Status:
+Emergency Approved
+
+Implementation Summary:
+A planned change was implemented affecting Key Vault.
+
+Validation Result:
+Passed
+
+Rollback Plan:
+Rollback to previous known-good configuration.
+
+Status:
+Partially Successful

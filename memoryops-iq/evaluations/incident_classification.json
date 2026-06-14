@@ -1,0 +1,137 @@
+[
+{
+"id": 1,
+"input": "VPN outage in APAC after firewall update",
+"expected": {
+"service": "VPN",
+"region": "APAC",
+"category": "Network"
+}
+},
+{
+"id": 2,
+"input": "Users unable to authenticate after Entra policy change",
+"expected": {
+"service": "Identity",
+"region": "Global",
+"category": "Security"
+}
+},
+{
+"id": 3,
+"input": "Azure Storage account unavailable in East US",
+"expected": {
+"service": "Storage",
+"region": "East US",
+"category": "Cloud"
+}
+},
+{
+"id": 4,
+"input": "DNS resolution failures affecting customer applications",
+"expected": {
+"service": "DNS",
+"region": "Global",
+"category": "Network"
+}
+},
+{
+"id": 5,
+"input": "Key Vault access denied after RBAC modification",
+"expected": {
+"service": "Key Vault",
+"region": "Global",
+"category": "Security"
+}
+},
+{
+"id": 6,
+"input": "App Service deployment failed after CI/CD pipeline update",
+"expected": {
+"service": "App Service",
+"region": "Global",
+"category": "Cloud"
+}
+},
+{
+"id": 7,
+"input": "BGP route instability causing intermittent connectivity",
+"expected": {
+"service": "Routing",
+"region": "APAC",
+"category": "Network"
+}
+},
+{
+"id": 8,
+"input": "Certificate expired causing HTTPS failures",
+"expected": {
+"service": "Certificate",
+"region": "Global",
+"category": "Security"
+}
+},
+{
+"id": 9,
+"input": "Azure SQL database unavailable during maintenance window",
+"expected": {
+"service": "SQL",
+"region": "East US",
+"category": "Cloud"
+}
+},
+{
+"id": 10,
+"input": "Firewall ACL change blocking VPN users",
+"expected": {
+"service": "Firewall",
+"region": "APAC",
+"category": "Network"
+}
+},
+{
+"id": 11,
+"input": "Users experiencing MFA failures after conditional access update",
+"expected": {
+"service": "Identity",
+"region": "Global",
+"category": "Security"
+}
+},
+{
+"id": 12,
+"input": "DNS resolution failing across APAC region",
+"expected": {
+"service": "DNS",
+"region": "APAC",
+"category": "Network"
+}
+},
+{
+"id": 13,
+"input": "Azure SQL connections timing out during maintenance",
+"expected": {
+"service": "SQL",
+"region": "East US",
+"category": "Cloud"
+}
+},
+{
+"id": 14,
+"input": "Certificate expiration causing HTTPS errors",
+"expected": {
+"service": "Certificate",
+"region": "Global",
+"category": "Security"
+}
+},
+{
+"id": 15,
+"input": "App Service deployment failed after CI CD pipeline execution",
+"expected": {
+"service": "App Service",
+"region": "Global",
+"category": "Cloud"
+}
+}
+]

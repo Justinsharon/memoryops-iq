@@ -1,0 +1,1420 @@
+
+RAW GPT RESPONSE:
+{
+    "service": "Key Vault",
+    "region": "Unknown",
+    "category": "Application"
+}
+
+--------------------------------
+FAIL
+INPUT:
+Applications unable to retrieve secrets from Key Vault
+
+EXPECTED:
+{'service': 'Key Vault', 'region': 'East US', 'category': 'Security'}
+
+GOT:
+{'service': 'Key Vault', 'region': 'Unknown', 'category': 'Application'}
+
+RAW GPT RESPONSE:
+{
+    "service": "SSL",
+    "region": "Global",
+    "category": "Security"
+}
+
+--------------------------------
+FAIL
+INPUT:
+SSL certificate issue impacting applications
+
+EXPECTED:
+{'service': 'Certificate', 'region': 'APAC', 'category': 'Security'}
+
+GOT:
+{'service': 'SSL', 'region': 'Global', 'category': 'Security'}
+
+RAW GPT RESPONSE:
+{
+    "service": "VPN",
+    "region": "East US",
+    "category": "Network"
+}
+
+RAW GPT RESPONSE:
+{
+    "service": "VPN",
+    "region": "West Europe",
+    "category": "Network"
+}
+
+RAW GPT RESPONSE:
+{
+    "service": "SSL",
+    "region": "Global",
+    "category": "Security"
+}
+
+--------------------------------
+FAIL
+INPUT:
+SSL certificate issue impacting applications
+
+EXPECTED:
+{'service': 'Certificate', 'region': 'East US', 'category': 'Security'}
+
+GOT:
+{'service': 'SSL', 'region': 'Global', 'category': 'Security'}
+
+RAW GPT RESPONSE:
+{
+    "service": "network backbone",
+    "region": "Global",
+    "category": "Network"
+}
+
+--------------------------------
+FAIL
+INPUT:
+Routing issues detected across network backbone in Global
+
+EXPECTED:
+{'service': 'Routing', 'region': 'Global', 'category': 'Network'}
+
+GOT:
+{'service': 'network backbone', 'region': 'Global', 'category': 'Network'}
+
+RAW GPT RESPONSE:
+{
+    "service": "Azure SQL database",
+    "region": "APAC",
+    "category": "Database"
+}
+
+--------------------------------
+FAIL
+INPUT:
+Azure SQL database unavailable in APAC
+
+EXPECTED:
+{'service': 'SQL', 'region': 'APAC', 'category': 'Cloud'}
+
+GOT:
+{'service': 'Azure SQL database', 'region': 'APAC', 'category': 'Database'}
+
+RAW GPT RESPONSE:
+{
+    "service": "App Service",
+    "region": "Unknown",
+    "category": "Deployment"
+}
+
+--------------------------------
+FAIL
+INPUT:
+App Service deployment failed after pipeline update
+
+EXPECTED:
+{'service': 'App Service', 'region': 'East US', 'category': 'Cloud'}
+
+GOT:
+{'service': 'App Service', 'region': 'Unknown', 'category': 'Deployment'}
+
+RAW GPT RESPONSE:
+{
+    "service": "Blob storage",
+    "region": "West Europe",
+    "category": "Access failures"
+}
+
+--------------------------------
+FAIL
+INPUT:
+Blob storage access failures reported in West Europe
+
+EXPECTED:
+{'service': 'Storage', 'region': 'West Europe', 'category': 'Cloud'}
+
+GOT:
+{'service': 'Blob storage', 'region': 'West Europe', 'category': 'Access failures'}
+
+RAW GPT RESPONSE:
+{
+    "service": "HTTPS",
+    "region": "Unknown",
+    "category": "Security"
+}
+
+--------------------------------
+FAIL
+INPUT:
+Certificate expired causing HTTPS failures
+
+EXPECTED:
+{'service': 'Certificate', 'region': 'East US', 'category': 'Security'}
+
+GOT:
+{'service': 'HTTPS', 'region': 'Unknown', 'category': 'Security'}
+
+RAW GPT RESPONSE:
+{
+    "service": "Azure Storage",
+    "region": "APAC",
+    "category": "Availability"
+}
+
+--------------------------------
+FAIL
+INPUT:
+Azure Storage account unavailable in APAC
+
+EXPECTED:
+{'service': 'Storage', 'region': 'APAC', 'category': 'Cloud'}
+
+GOT:
+{'service': 'Azure Storage', 'region': 'APAC', 'category': 'Availability'}
+
+RAW GPT RESPONSE:
+{
+    "service": "Key Vault",
+    "region": "Unknown",
+    "category": "Application"
+}
+
+--------------------------------
+FAIL
+INPUT:
+Applications unable to retrieve secrets from Key Vault
+
+EXPECTED:
+{'service': 'Key Vault', 'region': 'East US', 'category': 'Security'}
+
+GOT:
+{'service': 'Key Vault', 'region': 'Unknown', 'category': 'Application'}
+
+RAW GPT RESPONSE:
+{
+    "service": "VPN",
+    "region": "APAC",
+    "category": "Network"
+}
+
+RAW GPT RESPONSE:
+{
+    "service": "BGP",
+    "region": "Global",
+    "category": "Network"
+}
+
+--------------------------------
+FAIL
+INPUT:
+BGP route instability impacting connectivity in Global
+
+EXPECTED:
+{'service': 'Routing', 'region': 'Global', 'category': 'Network'}
+
+GOT:
+{'service': 'BGP', 'region': 'Global', 'category': 'Network'}
+
+RAW GPT RESPONSE:
+{
+    "service": "VPN",
+    "region": "Global",
+    "category": "Network"
+}
+
+RAW GPT RESPONSE:
+{
+    "service": "Azure SQL database",
+    "region": "East US",
+    "category": "Database"
+}
+
+--------------------------------
+FAIL
+INPUT:
+Azure SQL database unavailable in East US
+
+EXPECTED:
+{'service': 'SQL', 'region': 'East US', 'category': 'Cloud'}
+
+GOT:
+{'service': 'Azure SQL database', 'region': 'East US', 'category': 'Database'}
+
+RAW GPT RESPONSE:
+{
+    "service": "DNS",
+    "region": "Global",
+    "category": "Network"
+}
+
+RAW GPT RESPONSE:
+{
+    "service": "SQL",
+    "region": "West Europe",
+    "category": "Database"
+}
+
+--------------------------------
+FAIL
+INPUT:
+SQL connections timing out in West Europe
+
+EXPECTED:
+{'service': 'SQL', 'region': 'West Europe', 'category': 'Cloud'}
+
+GOT:
+{'service': 'SQL', 'region': 'West Europe', 'category': 'Database'}
+
+RAW GPT RESPONSE:
+{
+    "service": "Authentication",
+    "region": "Global",
+    "category": "Access"
+}
+
+--------------------------------
+FAIL
+INPUT:
+Users unable to authenticate after policy update
+
+EXPECTED:
+{'service': 'Identity', 'region': 'East US', 'category': 'Security'}
+
+GOT:
+{'service': 'Authentication', 'region': 'Global', 'category': 'Access'}
+
+RAW GPT RESPONSE:
+{
+    "service": "DNS",
+    "region": "West Europe",
+    "category": "Network"
+}
+
+RAW GPT RESPONSE:
+{
+    "service": "Applications",
+    "region": "Unknown",
+    "category": "Security"
+}
+
+--------------------------------
+FAIL
+INPUT:
+SSL certificate issue impacting applications
+
+EXPECTED:
+{'service': 'Certificate', 'region': 'Global', 'category': 'Security'}
+
+GOT:
+{'service': 'Applications', 'region': 'Unknown', 'category': 'Security'}
+
+RAW GPT RESPONSE:
+{
+    "service": "App Service",
+    "region": null,
+    "category": "Application"
+}
+
+--------------------------------
+FAIL
+INPUT:
+Application deployment failure in App Service
+
+EXPECTED:
+{'service': 'App Service', 'region': 'Global', 'category': 'Cloud'}
+
+GOT:
+{'service': 'App Service', 'region': 'Global', 'category': 'Application'}
+
+RAW GPT RESPONSE:
+{
+    "service": "Blob storage",
+    "region": "Global",
+    "category": "Access"
+}
+
+--------------------------------
+FAIL
+INPUT:
+Blob storage access failures reported in Global
+
+EXPECTED:
+{'service': 'Storage', 'region': 'Global', 'category': 'Cloud'}
+
+GOT:
+{'service': 'Blob storage', 'region': 'Global', 'category': 'Access'}
+
+RAW GPT RESPONSE:
+{
+    "service": "DNS",
+    "region": "East US",
+    "category": "Network"
+}
+
+RAW GPT RESPONSE:
+{
+    "service": "Key Vault",
+    "region": "Unknown",
+    "category": "Application"
+}
+
+--------------------------------
+FAIL
+INPUT:
+Applications unable to retrieve secrets from Key Vault
+
+EXPECTED:
+{'service': 'Key Vault', 'region': 'Global', 'category': 'Security'}
+
+GOT:
+{'service': 'Key Vault', 'region': 'Unknown', 'category': 'Application'}
+
+RAW GPT RESPONSE:
+{
+    "service": "Key Vault",
+    "region": "Unknown",
+    "category": "Application"
+}
+
+--------------------------------
+FAIL
+INPUT:
+Applications unable to retrieve secrets from Key Vault
+
+EXPECTED:
+{'service': 'Key Vault', 'region': 'East US', 'category': 'Security'}
+
+GOT:
+{'service': 'Key Vault', 'region': 'Unknown', 'category': 'Application'}
+
+RAW GPT RESPONSE:
+{
+    "service": "Azure SQL database",
+    "region": "West Europe",
+    "category": "Database"
+}
+
+--------------------------------
+FAIL
+INPUT:
+Azure SQL database unavailable in West Europe
+
+EXPECTED:
+{'service': 'SQL', 'region': 'West Europe', 'category': 'Cloud'}
+
+GOT:
+{'service': 'Azure SQL database', 'region': 'West Europe', 'category': 'Database'}
+
+RAW GPT RESPONSE:
+{
+    "service": "SSL",
+    "region": "Global",
+    "category": "Security"
+}
+
+--------------------------------
+FAIL
+INPUT:
+SSL certificate issue impacting applications
+
+EXPECTED:
+{'service': 'Certificate', 'region': 'APAC', 'category': 'Security'}
+
+GOT:
+{'service': 'SSL', 'region': 'Global', 'category': 'Security'}
+
+RAW GPT RESPONSE:
+{
+    "service": "Firewall",
+    "region": "APAC",
+    "category": "Network"
+}
+
+RAW GPT RESPONSE:
+{
+    "service": "Azure SQL database",
+    "region": "APAC",
+    "category": "Database"
+}
+
+--------------------------------
+FAIL
+INPUT:
+Azure SQL database unavailable in APAC
+
+EXPECTED:
+{'service': 'SQL', 'region': 'APAC', 'category': 'Cloud'}
+
+GOT:
+{'service': 'Azure SQL database', 'region': 'APAC', 'category': 'Database'}
+
+RAW GPT RESPONSE:
+{
+    "service": "VPN",
+    "region": "APAC",
+    "category": "Network"
+}
+
+RAW GPT RESPONSE:
+{
+    "service": "VPN",
+    "region": "East US",
+    "category": "Network"
+}
+
+RAW GPT RESPONSE:
+{
+    "service": "Firewall",
+    "region": "East US",
+    "category": "Network"
+}
+
+RAW GPT RESPONSE:
+{
+    "service": "network backbone",
+    "region": "East US",
+    "category": "Routing"
+}
+
+--------------------------------
+FAIL
+INPUT:
+Routing issues detected across network backbone in East US
+
+EXPECTED:
+{'service': 'Routing', 'region': 'East US', 'category': 'Network'}
+
+GOT:
+{'service': 'network backbone', 'region': 'East US', 'category': 'Routing'}
+
+RAW GPT RESPONSE:
+{
+    "service": "SSL",
+    "region": "Global",
+    "category": "Security"
+}
+
+--------------------------------
+FAIL
+INPUT:
+SSL certificate issue impacting applications
+
+EXPECTED:
+{'service': 'Certificate', 'region': 'West Europe', 'category': 'Security'}
+
+GOT:
+{'service': 'SSL', 'region': 'Global', 'category': 'Security'}
+
+RAW GPT RESPONSE:
+{
+    "service": "App Service",
+    "region": null,
+    "category": "Application"
+}
+
+--------------------------------
+FAIL
+INPUT:
+Application deployment failure in App Service
+
+EXPECTED:
+{'service': 'App Service', 'region': 'Global', 'category': 'Cloud'}
+
+GOT:
+{'service': 'App Service', 'region': 'Global', 'category': 'Application'}
+
+RAW GPT RESPONSE:
+{
+    "service": "HTTPS",
+    "region": "Global",
+    "category": "Security"
+}
+
+--------------------------------
+FAIL
+INPUT:
+Certificate expired causing HTTPS failures
+
+EXPECTED:
+{'service': 'Certificate', 'region': 'APAC', 'category': 'Security'}
+
+GOT:
+{'service': 'HTTPS', 'region': 'Global', 'category': 'Security'}
+
+RAW GPT RESPONSE:
+{
+    "service": "Authentication",
+    "region": "Global",
+    "category": "Access"
+}
+
+--------------------------------
+FAIL
+INPUT:
+Users unable to authenticate after policy update
+
+EXPECTED:
+{'service': 'Identity', 'region': 'APAC', 'category': 'Security'}
+
+GOT:
+{'service': 'Authentication', 'region': 'Global', 'category': 'Access'}
+
+RAW GPT RESPONSE:
+{
+    "service": "SQL",
+    "region": "West Europe",
+    "category": "Database"
+}
+
+--------------------------------
+FAIL
+INPUT:
+SQL connections timing out in West Europe
+
+EXPECTED:
+{'service': 'SQL', 'region': 'West Europe', 'category': 'Cloud'}
+
+GOT:
+{'service': 'SQL', 'region': 'West Europe', 'category': 'Database'}
+
+RAW GPT RESPONSE:
+{
+    "service": "Firewall",
+    "region": "APAC",
+    "category": "Network"
+}
+
+RAW GPT RESPONSE:
+{
+    "service": "Key Vault",
+    "region": "Unknown",
+    "category": "Application"
+}
+
+--------------------------------
+FAIL
+INPUT:
+Applications unable to retrieve secrets from Key Vault
+
+EXPECTED:
+{'service': 'Key Vault', 'region': 'West Europe', 'category': 'Security'}
+
+GOT:
+{'service': 'Key Vault', 'region': 'Unknown', 'category': 'Application'}
+
+RAW GPT RESPONSE:
+{
+    "service": "SQL",
+    "region": "APAC",
+    "category": "Database"
+}
+
+--------------------------------
+FAIL
+INPUT:
+SQL connections timing out in APAC
+
+EXPECTED:
+{'service': 'SQL', 'region': 'APAC', 'category': 'Cloud'}
+
+GOT:
+{'service': 'SQL', 'region': 'APAC', 'category': 'Database'}
+
+RAW GPT RESPONSE:
+{
+    "service": "Key Vault",
+    "region": "Unknown",
+    "category": "Access"
+}
+
+--------------------------------
+FAIL
+INPUT:
+Key Vault access denied after RBAC modification
+
+EXPECTED:
+{'service': 'Key Vault', 'region': 'West Europe', 'category': 'Security'}
+
+GOT:
+{'service': 'Key Vault', 'region': 'Unknown', 'category': 'Access'}
+
+RAW GPT RESPONSE:
+{
+    "service": "Firewall",
+    "region": "Global",
+    "category": "Network"
+}
+
+RAW GPT RESPONSE:
+{
+    "service": "DNS",
+    "region": "East US",
+    "category": "Network"
+}
+
+RAW GPT RESPONSE:
+{
+    "service": "SSL",
+    "region": "Global",
+    "category": "Security"
+}
+
+--------------------------------
+FAIL
+INPUT:
+SSL certificate issue impacting applications
+
+EXPECTED:
+{'service': 'Certificate', 'region': 'East US', 'category': 'Security'}
+
+GOT:
+{'service': 'SSL', 'region': 'Global', 'category': 'Security'}
+
+RAW GPT RESPONSE:
+{
+    "service": "SQL",
+    "region": "East US",
+    "category": "Database"
+}
+
+--------------------------------
+FAIL
+INPUT:
+SQL connections timing out in East US
+
+EXPECTED:
+{'service': 'SQL', 'region': 'East US', 'category': 'Cloud'}
+
+GOT:
+{'service': 'SQL', 'region': 'East US', 'category': 'Database'}
+
+RAW GPT RESPONSE:
+{
+    "service": "network backbone",
+    "region": "East US",
+    "category": "Routing"
+}
+
+--------------------------------
+FAIL
+INPUT:
+Routing issues detected across network backbone in East US
+
+EXPECTED:
+{'service': 'Routing', 'region': 'East US', 'category': 'Network'}
+
+GOT:
+{'service': 'network backbone', 'region': 'East US', 'category': 'Routing'}
+
+RAW GPT RESPONSE:
+{
+    "service": "Blob storage",
+    "region": "Global",
+    "category": "Access"
+}
+
+--------------------------------
+FAIL
+INPUT:
+Blob storage access failures reported in Global
+
+EXPECTED:
+{'service': 'Storage', 'region': 'Global', 'category': 'Cloud'}
+
+GOT:
+{'service': 'Blob storage', 'region': 'Global', 'category': 'Access'}
+
+RAW GPT RESPONSE:
+{
+    "service": "VPN",
+    "region": "APAC",
+    "category": "Network"
+}
+
+RAW GPT RESPONSE:
+{
+    "service": "Azure Storage",
+    "region": "East US",
+    "category": "Availability"
+}
+
+--------------------------------
+FAIL
+INPUT:
+Azure Storage account unavailable in East US
+
+EXPECTED:
+{'service': 'Storage', 'region': 'East US', 'category': 'Cloud'}
+
+GOT:
+{'service': 'Azure Storage', 'region': 'East US', 'category': 'Availability'}
+
+RAW GPT RESPONSE:
+{
+    "service": "Azure Storage",
+    "region": "Global",
+    "category": "Availability"
+}
+
+--------------------------------
+FAIL
+INPUT:
+Azure Storage account unavailable in Global
+
+EXPECTED:
+{'service': 'Storage', 'region': 'Global', 'category': 'Cloud'}
+
+GOT:
+{'service': 'Azure Storage', 'region': 'Global', 'category': 'Availability'}
+
+RAW GPT RESPONSE:
+{
+    "service": "DNS",
+    "region": "West Europe",
+    "category": "Network"
+}
+
+RAW GPT RESPONSE:
+{
+    "service": "Key Vault",
+    "region": "Unknown",
+    "category": "Application"
+}
+
+--------------------------------
+FAIL
+INPUT:
+Applications unable to retrieve secrets from Key Vault
+
+EXPECTED:
+{'service': 'Key Vault', 'region': 'East US', 'category': 'Security'}
+
+GOT:
+{'service': 'Key Vault', 'region': 'Unknown', 'category': 'Application'}
+
+RAW GPT RESPONSE:
+{
+    "service": "Blob storage",
+    "region": "East US",
+    "category": "Access"
+}
+
+--------------------------------
+FAIL
+INPUT:
+Blob storage access failures reported in East US
+
+EXPECTED:
+{'service': 'Storage', 'region': 'East US', 'category': 'Cloud'}
+
+GOT:
+{'service': 'Blob storage', 'region': 'East US', 'category': 'Access'}
+
+RAW GPT RESPONSE:
+{
+    "service": "Blob storage",
+    "region": "East US",
+    "category": "Access"
+}
+
+--------------------------------
+FAIL
+INPUT:
+Blob storage access failures reported in East US
+
+EXPECTED:
+{'service': 'Storage', 'region': 'East US', 'category': 'Cloud'}
+
+GOT:
+{'service': 'Blob storage', 'region': 'East US', 'category': 'Access'}
+
+RAW GPT RESPONSE:
+{
+    "service": "DNS",
+    "region": "Global",
+    "category": "Network"
+}
+
+RAW GPT RESPONSE:
+{
+    "service": "DNS",
+    "region": "Global",
+    "category": "Network"
+}
+
+RAW GPT RESPONSE:
+{
+    "service": "Firewall",
+    "region": "Global",
+    "category": "Network"
+}
+
+RAW GPT RESPONSE:
+{
+    "service": "VPN",
+    "region": "East US",
+    "category": "Network"
+}
+
+RAW GPT RESPONSE:
+{
+    "service": "BGP",
+    "region": "West Europe",
+    "category": "Network"
+}
+
+--------------------------------
+FAIL
+INPUT:
+BGP route instability impacting connectivity in West Europe
+
+EXPECTED:
+{'service': 'Routing', 'region': 'West Europe', 'category': 'Network'}
+
+GOT:
+{'service': 'BGP', 'region': 'West Europe', 'category': 'Network'}
+
+RAW GPT RESPONSE:
+{
+    "service": "VPN",
+    "region": "East US",
+    "category": "Network"
+}
+
+RAW GPT RESPONSE:
+{
+    "service": "DNS",
+    "region": "APAC",
+    "category": "Network"
+}
+
+RAW GPT RESPONSE:
+{
+    "service": "BGP",
+    "region": "Global",
+    "category": "Network"
+}
+
+--------------------------------
+FAIL
+INPUT:
+BGP route instability impacting connectivity in Global
+
+EXPECTED:
+{'service': 'Routing', 'region': 'Global', 'category': 'Network'}
+
+GOT:
+{'service': 'BGP', 'region': 'Global', 'category': 'Network'}
+
+RAW GPT RESPONSE:
+{
+    "service": "Authentication",
+    "region": "Global",
+    "category": "Access"
+}
+
+--------------------------------
+FAIL
+INPUT:
+Users unable to authenticate after policy update
+
+EXPECTED:
+{'service': 'Identity', 'region': 'West Europe', 'category': 'Security'}
+
+GOT:
+{'service': 'Authentication', 'region': 'Global', 'category': 'Access'}
+
+RAW GPT RESPONSE:
+{
+    "service": "App Service",
+    "region": null,
+    "category": "Application"
+}
+
+--------------------------------
+FAIL
+INPUT:
+Application deployment failure in App Service
+
+EXPECTED:
+{'service': 'App Service', 'region': 'APAC', 'category': 'Cloud'}
+
+GOT:
+{'service': 'App Service', 'region': 'Global', 'category': 'Application'}
+
+RAW GPT RESPONSE:
+{
+    "service": "DNS",
+    "region": "West Europe",
+    "category": "Network"
+}
+
+RAW GPT RESPONSE:
+{
+    "service": "App Service",
+    "region": "Unknown",
+    "category": "Deployment"
+}
+
+--------------------------------
+FAIL
+INPUT:
+App Service deployment failed after pipeline update
+
+EXPECTED:
+{'service': 'App Service', 'region': 'Global', 'category': 'Cloud'}
+
+GOT:
+{'service': 'App Service', 'region': 'Unknown', 'category': 'Deployment'}
+
+RAW GPT RESPONSE:
+{
+    "service": "Authentication",
+    "region": "Global",
+    "category": "Access"
+}
+
+--------------------------------
+FAIL
+INPUT:
+Users unable to authenticate after policy update
+
+EXPECTED:
+{'service': 'Identity', 'region': 'Global', 'category': 'Security'}
+
+GOT:
+{'service': 'Authentication', 'region': 'Global', 'category': 'Access'}
+
+RAW GPT RESPONSE:
+{
+    "service": "SSL",
+    "region": "Global",
+    "category": "Security"
+}
+
+--------------------------------
+FAIL
+INPUT:
+SSL certificate issue impacting applications
+
+EXPECTED:
+{'service': 'Certificate', 'region': 'East US', 'category': 'Security'}
+
+GOT:
+{'service': 'SSL', 'region': 'Global', 'category': 'Security'}
+
+RAW GPT RESPONSE:
+{
+    "service": "VPN",
+    "region": "East US",
+    "category": "Network"
+}
+
+RAW GPT RESPONSE:
+{
+    "service": "VPN",
+    "region": "West Europe",
+    "category": "Network"
+}
+
+RAW GPT RESPONSE:
+{
+    "service": "App Service",
+    "region": "Unknown",
+    "category": "Deployment"
+}
+
+--------------------------------
+FAIL
+INPUT:
+App Service deployment failed after pipeline update
+
+EXPECTED:
+{'service': 'App Service', 'region': 'West Europe', 'category': 'Cloud'}
+
+GOT:
+{'service': 'App Service', 'region': 'Unknown', 'category': 'Deployment'}
+
+RAW GPT RESPONSE:
+{
+    "service": "Azure Storage",
+    "region": "Global",
+    "category": "Availability"
+}
+
+--------------------------------
+FAIL
+INPUT:
+Azure Storage account unavailable in Global
+
+EXPECTED:
+{'service': 'Storage', 'region': 'Global', 'category': 'Cloud'}
+
+GOT:
+{'service': 'Azure Storage', 'region': 'Global', 'category': 'Availability'}
+
+RAW GPT RESPONSE:
+{
+    "service": "VPN",
+    "region": "Global",
+    "category": "Network"
+}
+
+RAW GPT RESPONSE:
+{
+    "service": "VPN",
+    "region": "Global",
+    "category": "Network"
+}
+
+RAW GPT RESPONSE:
+{
+    "service": "VPN",
+    "region": "East US",
+    "category": "Network"
+}
+
+RAW GPT RESPONSE:
+{
+    "service": "Azure Storage",
+    "region": "APAC",
+    "category": "Availability"
+}
+
+--------------------------------
+FAIL
+INPUT:
+Azure Storage account unavailable in APAC
+
+EXPECTED:
+{'service': 'Storage', 'region': 'APAC', 'category': 'Cloud'}
+
+GOT:
+{'service': 'Azure Storage', 'region': 'APAC', 'category': 'Availability'}
+
+RAW GPT RESPONSE:
+{
+    "service": "Azure SQL database",
+    "region": "Global",
+    "category": "Database"
+}
+
+--------------------------------
+FAIL
+INPUT:
+Azure SQL database unavailable in Global
+
+EXPECTED:
+{'service': 'SQL', 'region': 'Global', 'category': 'Cloud'}
+
+GOT:
+{'service': 'Azure SQL database', 'region': 'Global', 'category': 'Database'}
+
+RAW GPT RESPONSE:
+{
+    "service": "DNS",
+    "region": "APAC",
+    "category": "Network"
+}
+
+RAW GPT RESPONSE:
+{
+    "service": "Azure SQL database",
+    "region": "APAC",
+    "category": "Database"
+}
+
+--------------------------------
+FAIL
+INPUT:
+Azure SQL database unavailable in APAC
+
+EXPECTED:
+{'service': 'SQL', 'region': 'APAC', 'category': 'Cloud'}
+
+GOT:
+{'service': 'Azure SQL database', 'region': 'APAC', 'category': 'Database'}
+
+RAW GPT RESPONSE:
+{
+    "service": "BGP",
+    "region": "East US",
+    "category": "Network"
+}
+
+--------------------------------
+FAIL
+INPUT:
+BGP route instability impacting connectivity in East US
+
+EXPECTED:
+{'service': 'Routing', 'region': 'East US', 'category': 'Network'}
+
+GOT:
+{'service': 'BGP', 'region': 'East US', 'category': 'Network'}
+
+RAW GPT RESPONSE:
+{
+    "service": "Firewall",
+    "region": "East US",
+    "category": "Network"
+}
+
+RAW GPT RESPONSE:
+{
+    "service": "Azure SQL database",
+    "region": "Global",
+    "category": "Database"
+}
+
+--------------------------------
+FAIL
+INPUT:
+Azure SQL database unavailable in Global
+
+EXPECTED:
+{'service': 'SQL', 'region': 'Global', 'category': 'Cloud'}
+
+GOT:
+{'service': 'Azure SQL database', 'region': 'Global', 'category': 'Database'}
+
+RAW GPT RESPONSE:
+{
+    "service": "Key Vault",
+    "region": "Unknown",
+    "category": "Application"
+}
+
+--------------------------------
+FAIL
+INPUT:
+Applications unable to retrieve secrets from Key Vault
+
+EXPECTED:
+{'service': 'Key Vault', 'region': 'Global', 'category': 'Security'}
+
+GOT:
+{'service': 'Key Vault', 'region': 'Unknown', 'category': 'Application'}
+
+RAW GPT RESPONSE:
+{
+    "service": "Blob storage",
+    "region": "East US",
+    "category": "Access"
+}
+
+--------------------------------
+FAIL
+INPUT:
+Blob storage access failures reported in East US
+
+EXPECTED:
+{'service': 'Storage', 'region': 'East US', 'category': 'Cloud'}
+
+GOT:
+{'service': 'Blob storage', 'region': 'East US', 'category': 'Access'}
+
+RAW GPT RESPONSE:
+{
+    "service": "Azure SQL database",
+    "region": "APAC",
+    "category": "Database"
+}
+
+--------------------------------
+FAIL
+INPUT:
+Azure SQL database unavailable in APAC
+
+EXPECTED:
+{'service': 'SQL', 'region': 'APAC', 'category': 'Cloud'}
+
+GOT:
+{'service': 'Azure SQL database', 'region': 'APAC', 'category': 'Database'}
+
+RAW GPT RESPONSE:
+{
+    "service": "DNS",
+    "region": "East US",
+    "category": "Network"
+}
+
+RAW GPT RESPONSE:
+{
+    "service": "SSL",
+    "region": "Global",
+    "category": "Security"
+}
+
+--------------------------------
+FAIL
+INPUT:
+SSL certificate issue impacting applications
+
+EXPECTED:
+{'service': 'Certificate', 'region': 'Global', 'category': 'Security'}
+
+GOT:
+{'service': 'SSL', 'region': 'Global', 'category': 'Security'}
+
+RAW GPT RESPONSE:
+{
+    "service": "Firewall",
+    "region": "East US",
+    "category": "Network"
+}
+
+RAW GPT RESPONSE:
+{
+    "service": "HTTPS",
+    "region": "Global",
+    "category": "Security"
+}
+
+--------------------------------
+FAIL
+INPUT:
+Certificate expired causing HTTPS failures
+
+EXPECTED:
+{'service': 'Certificate', 'region': 'Global', 'category': 'Security'}
+
+GOT:
+{'service': 'HTTPS', 'region': 'Global', 'category': 'Security'}
+
+RAW GPT RESPONSE:
+{
+    "service": "network backbone",
+    "region": "Global",
+    "category": "Network"
+}
+
+--------------------------------
+FAIL
+INPUT:
+Routing issues detected across network backbone in Global
+
+EXPECTED:
+{'service': 'Routing', 'region': 'Global', 'category': 'Network'}
+
+GOT:
+{'service': 'network backbone', 'region': 'Global', 'category': 'Network'}
+
+RAW GPT RESPONSE:
+{
+    "service": "VPN",
+    "region": "APAC",
+    "category": "Network"
+}
+
+RAW GPT RESPONSE:
+{
+    "service": "Key Vault",
+    "region": "Unknown",
+    "category": "Application"
+}
+
+--------------------------------
+FAIL
+INPUT:
+Applications unable to retrieve secrets from Key Vault
+
+EXPECTED:
+{'service': 'Key Vault', 'region': 'APAC', 'category': 'Security'}
+
+GOT:
+{'service': 'Key Vault', 'region': 'Unknown', 'category': 'Application'}
+
+RAW GPT RESPONSE:
+{
+    "service": "network backbone",
+    "region": "APAC",
+    "category": "Routing"
+}
+
+--------------------------------
+FAIL
+INPUT:
+Routing issues detected across network backbone in APAC
+
+EXPECTED:
+{'service': 'Routing', 'region': 'APAC', 'category': 'Network'}
+
+GOT:
+{'service': 'network backbone', 'region': 'APAC', 'category': 'Routing'}
+
+RAW GPT RESPONSE:
+{
+    "service": "DNS",
+    "region": "West Europe",
+    "category": "Network"
+}
+
+RAW GPT RESPONSE:
+{
+    "service": "Azure Storage",
+    "region": "APAC",
+    "category": "Availability"
+}
+
+--------------------------------
+FAIL
+INPUT:
+Azure Storage account unavailable in APAC
+
+EXPECTED:
+{'service': 'Storage', 'region': 'APAC', 'category': 'Cloud'}
+
+GOT:
+{'service': 'Azure Storage', 'region': 'APAC', 'category': 'Availability'}
+
+RAW GPT RESPONSE:
+{
+    "service": "App Service",
+    "region": null,
+    "category": "Application"
+}
+
+--------------------------------
+FAIL
+INPUT:
+Application deployment failure in App Service
+
+EXPECTED:
+{'service': 'App Service', 'region': 'West Europe', 'category': 'Cloud'}
+
+GOT:
+{'service': 'App Service', 'region': 'Global', 'category': 'Application'}
+
+RAW GPT RESPONSE:
+{
+    "service": "VPN",
+    "region": "APAC",
+    "category": "Network"
+}
+
+RAW GPT RESPONSE:
+{
+    "service": "App Service",
+    "region": "Unknown",
+    "category": "Deployment"
+}
+
+--------------------------------
+FAIL
+INPUT:
+App Service deployment failed after pipeline update
+
+EXPECTED:
+{'service': 'App Service', 'region': 'Global', 'category': 'Cloud'}
+
+GOT:
+{'service': 'App Service', 'region': 'Unknown', 'category': 'Deployment'}
+
+========================
+Passed: 35/100
+Accuracy: 35.00%
+========================

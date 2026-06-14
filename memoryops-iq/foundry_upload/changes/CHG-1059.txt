@@ -1,0 +1,40 @@
+
+CHANGE RECORD
+
+Change ID: CHG-1059
+
+Service:
+Key Vault
+
+Region:
+APAC
+
+Change Type:
+Network Restriction Update
+
+Risk Level:
+High
+
+Change Start:
+2026-06-07 03:31:27
+
+Change End:
+2026-06-07 04:12:27
+
+Implemented By:
+Cloud Operations Team
+
+Approval Status:
+Emergency Approved
+
+Implementation Summary:
+A planned change was implemented affecting Key Vault.
+
+Validation Result:
+Passed with Warnings
+
+Rollback Plan:
+Rollback to previous known-good configuration.
+
+Status:
+Successful

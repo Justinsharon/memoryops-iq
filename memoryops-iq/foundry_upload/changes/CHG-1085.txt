@@ -1,0 +1,40 @@
+
+CHANGE RECORD
+
+Change ID: CHG-1085
+
+Service:
+BGP
+
+Region:
+West Europe
+
+Change Type:
+Routing Configuration Change
+
+Risk Level:
+Low
+
+Change Start:
+2026-06-07 07:31:27
+
+Change End:
+2026-06-07 07:58:27
+
+Implemented By:
+Network Operations Team
+
+Approval Status:
+Emergency Approved
+
+Implementation Summary:
+A planned change was implemented affecting BGP.
+
+Validation Result:
+Passed
+
+Rollback Plan:
+Rollback to previous known-good configuration.
+
+Status:
+Successful

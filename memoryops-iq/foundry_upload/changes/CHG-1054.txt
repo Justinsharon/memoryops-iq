@@ -1,0 +1,40 @@
+
+CHANGE RECORD
+
+Change ID: CHG-1054
+
+Service:
+Storage
+
+Region:
+West Europe
+
+Change Type:
+Network Access Update
+
+Risk Level:
+Medium
+
+Change Start:
+2026-06-06 12:31:27
+
+Change End:
+2026-06-06 13:16:27
+
+Implemented By:
+Platform Engineering Team
+
+Approval Status:
+Emergency Approved
+
+Implementation Summary:
+A planned change was implemented affecting Storage.
+
+Validation Result:
+Passed with Warnings
+
+Rollback Plan:
+Rollback to previous known-good configuration.
+
+Status:
+Successful

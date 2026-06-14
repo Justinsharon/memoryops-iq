@@ -1,0 +1,19 @@
+RUNBOOK
+
+Service: BGP
+
+Purpose:
+Standard troubleshooting procedure for BGP incidents.
+
+Procedure:
+
+1. Verify BGP neighbors
+2. Check route advertisements
+3. Inspect route filters
+4. Rollback routing changes
+
+Escalation:
+Contact Platform Operations Team
+
+Success Criteria:
+Service restored and monitoring alerts cleared.

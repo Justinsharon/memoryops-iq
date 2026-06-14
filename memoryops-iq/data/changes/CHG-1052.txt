@@ -1,0 +1,40 @@
+
+CHANGE RECORD
+
+Change ID: CHG-1052
+
+Service:
+Storage
+
+Region:
+APAC
+
+Change Type:
+Network Access Update
+
+Risk Level:
+Low
+
+Change Start:
+2026-06-06 12:31:27
+
+Change End:
+2026-06-06 12:50:27
+
+Implemented By:
+Infrastructure Team
+
+Approval Status:
+Approved
+
+Implementation Summary:
+A planned change was implemented affecting Storage.
+
+Validation Result:
+Passed
+
+Rollback Plan:
+Rollback to previous known-good configuration.
+
+Status:
+Successful

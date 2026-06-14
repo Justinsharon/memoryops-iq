@@ -1,0 +1,40 @@
+
+CHANGE RECORD
+
+Change ID: CHG-1095
+
+Service:
+BGP
+
+Region:
+APAC
+
+Change Type:
+Route Policy Update
+
+Risk Level:
+High
+
+Change Start:
+2026-06-08 16:31:27
+
+Change End:
+2026-06-08 16:47:27
+
+Implemented By:
+Cloud Operations Team
+
+Approval Status:
+Standard Approved
+
+Implementation Summary:
+A planned change was implemented affecting BGP.
+
+Validation Result:
+Failed
+
+Rollback Plan:
+Rollback to previous known-good configuration.
+
+Status:
+Successful

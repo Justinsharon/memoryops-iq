@@ -1,0 +1,40 @@
+
+CHANGE RECORD
+
+Change ID: CHG-1011
+
+Service:
+VPN
+
+Region:
+APAC
+
+Change Type:
+VPN Gateway Upgrade
+
+Risk Level:
+Low
+
+Change Start:
+2026-06-08 11:31:27
+
+Change End:
+2026-06-08 12:07:27
+
+Implemented By:
+Platform Engineering Team
+
+Approval Status:
+Standard Approved
+
+Implementation Summary:
+A planned change was implemented affecting VPN.
+
+Validation Result:
+Passed with Warnings
+
+Rollback Plan:
+Rollback to previous known-good configuration.
+
+Status:
+Successful

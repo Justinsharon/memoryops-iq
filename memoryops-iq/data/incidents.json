@@ -1,0 +1,902 @@
+[
+  {
+    "incident_id": "INC-1001",
+    "service": "DNS",
+    "region": "APAC",
+    "severity": "Critical",
+    "root_cause": "DNS server outage",
+    "resolution": "Resolved issue caused by DNS server outage",
+    "mttr_minutes": 16
+  },
+  {
+    "incident_id": "INC-1002",
+    "service": "SQL",
+    "region": "APAC",
+    "severity": "High",
+    "root_cause": "Connection pool exhaustion",
+    "resolution": "Resolved issue caused by Connection pool exhaustion",
+    "mttr_minutes": 107
+  },
+  {
+    "incident_id": "INC-1003",
+    "service": "VPN",
+    "region": "APAC",
+    "severity": "Medium",
+    "root_cause": "VPN Gateway failure",
+    "resolution": "Resolved issue caused by VPN Gateway failure",
+    "mttr_minutes": 26
+  },
+  {
+    "incident_id": "INC-1004",
+    "service": "BGP",
+    "region": "Global",
+    "severity": "Medium",
+    "root_cause": "Route propagation failure",
+    "resolution": "Resolved issue caused by Route propagation failure",
+    "mttr_minutes": 144
+  },
+  {
+    "incident_id": "INC-1005",
+    "service": "App Service",
+    "region": "Global",
+    "severity": "Low",
+    "root_cause": "Runtime crash",
+    "resolution": "Resolved issue caused by Runtime crash",
+    "mttr_minutes": 24
+  },
+  {
+    "incident_id": "INC-1006",
+    "service": "App Service",
+    "region": "West Europe",
+    "severity": "High",
+    "root_cause": "Deployment failure",
+    "resolution": "Resolved issue caused by Deployment failure",
+    "mttr_minutes": 99
+  },
+  {
+    "incident_id": "INC-1007",
+    "service": "VPN",
+    "region": "Global",
+    "severity": "High",
+    "root_cause": "Certificate expiration",
+    "resolution": "Resolved issue caused by Certificate expiration",
+    "mttr_minutes": 137
+  },
+  {
+    "incident_id": "INC-1008",
+    "service": "Storage",
+    "region": "Global",
+    "severity": "Low",
+    "root_cause": "Access key rotation issue",
+    "resolution": "Resolved issue caused by Access key rotation issue",
+    "mttr_minutes": 97
+  },
+  {
+    "incident_id": "INC-1009",
+    "service": "VPN",
+    "region": "Global",
+    "severity": "Critical",
+    "root_cause": "VPN Gateway failure",
+    "resolution": "Resolved issue caused by VPN Gateway failure",
+    "mttr_minutes": 102
+  },
+  {
+    "incident_id": "INC-1010",
+    "service": "Storage",
+    "region": "APAC",
+    "severity": "Critical",
+    "root_cause": "Access key rotation issue",
+    "resolution": "Resolved issue caused by Access key rotation issue",
+    "mttr_minutes": 170
+  },
+  {
+    "incident_id": "INC-1011",
+    "service": "DNS",
+    "region": "APAC",
+    "severity": "Low",
+    "root_cause": "DNS server outage",
+    "resolution": "Resolved issue caused by DNS server outage",
+    "mttr_minutes": 155
+  },
+  {
+    "incident_id": "INC-1012",
+    "service": "Storage",
+    "region": "APAC",
+    "severity": "Critical",
+    "root_cause": "Replication failure",
+    "resolution": "Resolved issue caused by Replication failure",
+    "mttr_minutes": 50
+  },
+  {
+    "incident_id": "INC-1013",
+    "service": "SQL",
+    "region": "West Europe",
+    "severity": "Low",
+    "root_cause": "Database deadlock",
+    "resolution": "Resolved issue caused by Database deadlock",
+    "mttr_minutes": 150
+  },
+  {
+    "incident_id": "INC-1014",
+    "service": "DNS",
+    "region": "APAC",
+    "severity": "High",
+    "root_cause": "Configuration drift",
+    "resolution": "Resolved issue caused by Configuration drift",
+    "mttr_minutes": 78
+  },
+  {
+    "incident_id": "INC-1015",
+    "service": "BGP",
+    "region": "East US",
+    "severity": "Low",
+    "root_cause": "Route propagation failure",
+    "resolution": "Resolved issue caused by Route propagation failure",
+    "mttr_minutes": 112
+  },
+  {
+    "incident_id": "INC-1016",
+    "service": "VPN",
+    "region": "Global",
+    "severity": "High",
+    "root_cause": "Firewall ACL change",
+    "resolution": "Resolved issue caused by Firewall ACL change",
+    "mttr_minutes": 47
+  },
+  {
+    "incident_id": "INC-1017",
+    "service": "DNS",
+    "region": "APAC",
+    "severity": "Medium",
+    "root_cause": "DNS zone corruption",
+    "resolution": "Resolved issue caused by DNS zone corruption",
+    "mttr_minutes": 161
+  },
+  {
+    "incident_id": "INC-1018",
+    "service": "DNS",
+    "region": "West Europe",
+    "severity": "Medium",
+    "root_cause": "DNS server outage",
+    "resolution": "Resolved issue caused by DNS server outage",
+    "mttr_minutes": 20
+  },
+  {
+    "incident_id": "INC-1019",
+    "service": "SQL",
+    "region": "APAC",
+    "severity": "Medium",
+    "root_cause": "Database deadlock",
+    "resolution": "Resolved issue caused by Database deadlock",
+    "mttr_minutes": 37
+  },
+  {
+    "incident_id": "INC-1020",
+    "service": "App Service",
+    "region": "Global",
+    "severity": "Critical",
+    "root_cause": "Runtime crash",
+    "resolution": "Resolved issue caused by Runtime crash",
+    "mttr_minutes": 65
+  },
+  {
+    "incident_id": "INC-1021",
+    "service": "Key Vault",
+    "region": "West Europe",
+    "severity": "Medium",
+    "root_cause": "Network restriction issue",
+    "resolution": "Resolved issue caused by Network restriction issue",
+    "mttr_minutes": 171
+  },
+  {
+    "incident_id": "INC-1022",
+    "service": "VPN",
+    "region": "West Europe",
+    "severity": "High",
+    "root_cause": "Certificate expiration",
+    "resolution": "Resolved issue caused by Certificate expiration",
+    "mttr_minutes": 130
+  },
+  {
+    "incident_id": "INC-1023",
+    "service": "BGP",
+    "region": "East US",
+    "severity": "Medium",
+    "root_cause": "Neighbor flapping",
+    "resolution": "Resolved issue caused by Neighbor flapping",
+    "mttr_minutes": 28
+  },
+  {
+    "incident_id": "INC-1024",
+    "service": "VPN",
+    "region": "East US",
+    "severity": "High",
+    "root_cause": "Certificate expiration",
+    "resolution": "Resolved issue caused by Certificate expiration",
+    "mttr_minutes": 72
+  },
+  {
+    "incident_id": "INC-1025",
+    "service": "Key Vault",
+    "region": "East US",
+    "severity": "Low",
+    "root_cause": "Secret expiration",
+    "resolution": "Resolved issue caused by Secret expiration",
+    "mttr_minutes": 158
+  },
+  {
+    "incident_id": "INC-1026",
+    "service": "BGP",
+    "region": "East US",
+    "severity": "Critical",
+    "root_cause": "Incorrect route advertisement",
+    "resolution": "Resolved issue caused by Incorrect route advertisement",
+    "mttr_minutes": 116
+  },
+  {
+    "incident_id": "INC-1027",
+    "service": "App Service",
+    "region": "APAC",
+    "severity": "Critical",
+    "root_cause": "Scaling issue",
+    "resolution": "Resolved issue caused by Scaling issue",
+    "mttr_minutes": 129
+  },
+  {
+    "incident_id": "INC-1028",
+    "service": "DNS",
+    "region": "APAC",
+    "severity": "Medium",
+    "root_cause": "DNS zone corruption",
+    "resolution": "Resolved issue caused by DNS zone corruption",
+    "mttr_minutes": 27
+  },
+  {
+    "incident_id": "INC-1029",
+    "service": "VPN",
+    "region": "East US",
+    "severity": "Low",
+    "root_cause": "Firewall ACL change",
+    "resolution": "Resolved issue caused by Firewall ACL change",
+    "mttr_minutes": 93
+  },
+  {
+    "incident_id": "INC-1030",
+    "service": "Storage",
+    "region": "APAC",
+    "severity": "Critical",
+    "root_cause": "Access key rotation issue",
+    "resolution": "Resolved issue caused by Access key rotation issue",
+    "mttr_minutes": 126
+  },
+  {
+    "incident_id": "INC-1031",
+    "service": "BGP",
+    "region": "West Europe",
+    "severity": "High",
+    "root_cause": "Route propagation failure",
+    "resolution": "Resolved issue caused by Route propagation failure",
+    "mttr_minutes": 57
+  },
+  {
+    "incident_id": "INC-1032",
+    "service": "SQL",
+    "region": "East US",
+    "severity": "Low",
+    "root_cause": "Maintenance window failure",
+    "resolution": "Resolved issue caused by Maintenance window failure",
+    "mttr_minutes": 99
+  },
+  {
+    "incident_id": "INC-1033",
+    "service": "App Service",
+    "region": "APAC",
+    "severity": "Medium",
+    "root_cause": "Scaling issue",
+    "resolution": "Resolved issue caused by Scaling issue",
+    "mttr_minutes": 72
+  },
+  {
+    "incident_id": "INC-1034",
+    "service": "DNS",
+    "region": "West Europe",
+    "severity": "Medium",
+    "root_cause": "DNS zone corruption",
+    "resolution": "Resolved issue caused by DNS zone corruption",
+    "mttr_minutes": 161
+  },
+  {
+    "incident_id": "INC-1035",
+    "service": "Key Vault",
+    "region": "East US",
+    "severity": "Low",
+    "root_cause": "Secret expiration",
+    "resolution": "Resolved issue caused by Secret expiration",
+    "mttr_minutes": 155
+  },
+  {
+    "incident_id": "INC-1036",
+    "service": "App Service",
+    "region": "West Europe",
+    "severity": "High",
+    "root_cause": "Scaling issue",
+    "resolution": "Resolved issue caused by Scaling issue",
+    "mttr_minutes": 91
+  },
+  {
+    "incident_id": "INC-1037",
+    "service": "DNS",
+    "region": "Global",
+    "severity": "Critical",
+    "root_cause": "Configuration drift",
+    "resolution": "Resolved issue caused by Configuration drift",
+    "mttr_minutes": 28
+  },
+  {
+    "incident_id": "INC-1038",
+    "service": "SQL",
+    "region": "Global",
+    "severity": "High",
+    "root_cause": "Database deadlock",
+    "resolution": "Resolved issue caused by Database deadlock",
+    "mttr_minutes": 74
+  },
+  {
+    "incident_id": "INC-1039",
+    "service": "Key Vault",
+    "region": "Global",
+    "severity": "Medium",
+    "root_cause": "Secret expiration",
+    "resolution": "Resolved issue caused by Secret expiration",
+    "mttr_minutes": 63
+  },
+  {
+    "incident_id": "INC-1040",
+    "service": "App Service",
+    "region": "APAC",
+    "severity": "Critical",
+    "root_cause": "Deployment failure",
+    "resolution": "Resolved issue caused by Deployment failure",
+    "mttr_minutes": 21
+  },
+  {
+    "incident_id": "INC-1041",
+    "service": "DNS",
+    "region": "West Europe",
+    "severity": "High",
+    "root_cause": "DNS zone corruption",
+    "resolution": "Resolved issue caused by DNS zone corruption",
+    "mttr_minutes": 76
+  },
+  {
+    "incident_id": "INC-1042",
+    "service": "VPN",
+    "region": "East US",
+    "severity": "Medium",
+    "root_cause": "Certificate expiration",
+    "resolution": "Resolved issue caused by Certificate expiration",
+    "mttr_minutes": 44
+  },
+  {
+    "incident_id": "INC-1043",
+    "service": "DNS",
+    "region": "West Europe",
+    "severity": "High",
+    "root_cause": "DNS zone corruption",
+    "resolution": "Resolved issue caused by DNS zone corruption",
+    "mttr_minutes": 89
+  },
+  {
+    "incident_id": "INC-1044",
+    "service": "App Service",
+    "region": "Global",
+    "severity": "Low",
+    "root_cause": "Scaling issue",
+    "resolution": "Resolved issue caused by Scaling issue",
+    "mttr_minutes": 69
+  },
+  {
+    "incident_id": "INC-1045",
+    "service": "BGP",
+    "region": "APAC",
+    "severity": "Critical",
+    "root_cause": "Incorrect route advertisement",
+    "resolution": "Resolved issue caused by Incorrect route advertisement",
+    "mttr_minutes": 52
+  },
+  {
+    "incident_id": "INC-1046",
+    "service": "SQL",
+    "region": "APAC",
+    "severity": "Critical",
+    "root_cause": "Connection pool exhaustion",
+    "resolution": "Resolved issue caused by Connection pool exhaustion",
+    "mttr_minutes": 58
+  },
+  {
+    "incident_id": "INC-1047",
+    "service": "VPN",
+    "region": "APAC",
+    "severity": "High",
+    "root_cause": "VPN Gateway failure",
+    "resolution": "Resolved issue caused by VPN Gateway failure",
+    "mttr_minutes": 35
+  },
+  {
+    "incident_id": "INC-1048",
+    "service": "App Service",
+    "region": "APAC",
+    "severity": "Low",
+    "root_cause": "Runtime crash",
+    "resolution": "Resolved issue caused by Runtime crash",
+    "mttr_minutes": 163
+  },
+  {
+    "incident_id": "INC-1049",
+    "service": "Storage",
+    "region": "APAC",
+    "severity": "Medium",
+    "root_cause": "Replication failure",
+    "resolution": "Resolved issue caused by Replication failure",
+    "mttr_minutes": 38
+  },
+  {
+    "incident_id": "INC-1050",
+    "service": "BGP",
+    "region": "East US",
+    "severity": "Low",
+    "root_cause": "Incorrect route advertisement",
+    "resolution": "Resolved issue caused by Incorrect route advertisement",
+    "mttr_minutes": 51
+  },
+  {
+    "incident_id": "INC-1051",
+    "service": "SQL",
+    "region": "West Europe",
+    "severity": "Low",
+    "root_cause": "Database deadlock",
+    "resolution": "Resolved issue caused by Database deadlock",
+    "mttr_minutes": 36
+  },
+  {
+    "incident_id": "INC-1052",
+    "service": "BGP",
+    "region": "APAC",
+    "severity": "Low",
+    "root_cause": "Route propagation failure",
+    "resolution": "Resolved issue caused by Route propagation failure",
+    "mttr_minutes": 48
+  },
+  {
+    "incident_id": "INC-1053",
+    "service": "Key Vault",
+    "region": "Global",
+    "severity": "Low",
+    "root_cause": "RBAC misconfiguration",
+    "resolution": "Resolved issue caused by RBAC misconfiguration",
+    "mttr_minutes": 150
+  },
+  {
+    "incident_id": "INC-1054",
+    "service": "SQL",
+    "region": "East US",
+    "severity": "Critical",
+    "root_cause": "Maintenance window failure",
+    "resolution": "Resolved issue caused by Maintenance window failure",
+    "mttr_minutes": 122
+  },
+  {
+    "incident_id": "INC-1055",
+    "service": "SQL",
+    "region": "West Europe",
+    "severity": "Low",
+    "root_cause": "Database deadlock",
+    "resolution": "Resolved issue caused by Database deadlock",
+    "mttr_minutes": 83
+  },
+  {
+    "incident_id": "INC-1056",
+    "service": "Key Vault",
+    "region": "Global",
+    "severity": "Low",
+    "root_cause": "RBAC misconfiguration",
+    "resolution": "Resolved issue caused by RBAC misconfiguration",
+    "mttr_minutes": 97
+  },
+  {
+    "incident_id": "INC-1057",
+    "service": "BGP",
+    "region": "Global",
+    "severity": "Low",
+    "root_cause": "Neighbor flapping",
+    "resolution": "Resolved issue caused by Neighbor flapping",
+    "mttr_minutes": 17
+  },
+  {
+    "incident_id": "INC-1058",
+    "service": "VPN",
+    "region": "East US",
+    "severity": "Low",
+    "root_cause": "Firewall ACL change",
+    "resolution": "Resolved issue caused by Firewall ACL change",
+    "mttr_minutes": 126
+  },
+  {
+    "incident_id": "INC-1059",
+    "service": "DNS",
+    "region": "Global",
+    "severity": "High",
+    "root_cause": "Configuration drift",
+    "resolution": "Resolved issue caused by Configuration drift",
+    "mttr_minutes": 116
+  },
+  {
+    "incident_id": "INC-1060",
+    "service": "App Service",
+    "region": "APAC",
+    "severity": "Medium",
+    "root_cause": "Runtime crash",
+    "resolution": "Resolved issue caused by Runtime crash",
+    "mttr_minutes": 157
+  },
+  {
+    "incident_id": "INC-1061",
+    "service": "SQL",
+    "region": "Global",
+    "severity": "Medium",
+    "root_cause": "Connection pool exhaustion",
+    "resolution": "Resolved issue caused by Connection pool exhaustion",
+    "mttr_minutes": 120
+  },
+  {
+    "incident_id": "INC-1062",
+    "service": "BGP",
+    "region": "East US",
+    "severity": "Low",
+    "root_cause": "Incorrect route advertisement",
+    "resolution": "Resolved issue caused by Incorrect route advertisement",
+    "mttr_minutes": 101
+  },
+  {
+    "incident_id": "INC-1063",
+    "service": "Key Vault",
+    "region": "East US",
+    "severity": "Critical",
+    "root_cause": "RBAC misconfiguration",
+    "resolution": "Resolved issue caused by RBAC misconfiguration",
+    "mttr_minutes": 110
+  },
+  {
+    "incident_id": "INC-1064",
+    "service": "DNS",
+    "region": "East US",
+    "severity": "High",
+    "root_cause": "DNS zone corruption",
+    "resolution": "Resolved issue caused by DNS zone corruption",
+    "mttr_minutes": 65
+  },
+  {
+    "incident_id": "INC-1065",
+    "service": "Key Vault",
+    "region": "West Europe",
+    "severity": "Critical",
+    "root_cause": "Network restriction issue",
+    "resolution": "Resolved issue caused by Network restriction issue",
+    "mttr_minutes": 36
+  },
+  {
+    "incident_id": "INC-1066",
+    "service": "VPN",
+    "region": "APAC",
+    "severity": "Medium",
+    "root_cause": "VPN Gateway failure",
+    "resolution": "Resolved issue caused by VPN Gateway failure",
+    "mttr_minutes": 21
+  },
+  {
+    "incident_id": "INC-1067",
+    "service": "App Service",
+    "region": "West Europe",
+    "severity": "Medium",
+    "root_cause": "Runtime crash",
+    "resolution": "Resolved issue caused by Runtime crash",
+    "mttr_minutes": 142
+  },
+  {
+    "incident_id": "INC-1068",
+    "service": "Storage",
+    "region": "West Europe",
+    "severity": "High",
+    "root_cause": "Storage account outage",
+    "resolution": "Resolved issue caused by Storage account outage",
+    "mttr_minutes": 147
+  },
+  {
+    "incident_id": "INC-1069",
+    "service": "DNS",
+    "region": "West Europe",
+    "severity": "High",
+    "root_cause": "DNS server outage",
+    "resolution": "Resolved issue caused by DNS server outage",
+    "mttr_minutes": 140
+  },
+  {
+    "incident_id": "INC-1070",
+    "service": "Storage",
+    "region": "West Europe",
+    "severity": "High",
+    "root_cause": "Access key rotation issue",
+    "resolution": "Resolved issue caused by Access key rotation issue",
+    "mttr_minutes": 135
+  },
+  {
+    "incident_id": "INC-1071",
+    "service": "BGP",
+    "region": "APAC",
+    "severity": "Low",
+    "root_cause": "Incorrect route advertisement",
+    "resolution": "Resolved issue caused by Incorrect route advertisement",
+    "mttr_minutes": 132
+  },
+  {
+    "incident_id": "INC-1072",
+    "service": "Key Vault",
+    "region": "West Europe",
+    "severity": "High",
+    "root_cause": "Secret expiration",
+    "resolution": "Resolved issue caused by Secret expiration",
+    "mttr_minutes": 134
+  },
+  {
+    "incident_id": "INC-1073",
+    "service": "Key Vault",
+    "region": "West Europe",
+    "severity": "Medium",
+    "root_cause": "RBAC misconfiguration",
+    "resolution": "Resolved issue caused by RBAC misconfiguration",
+    "mttr_minutes": 37
+  },
+  {
+    "incident_id": "INC-1074",
+    "service": "VPN",
+    "region": "West Europe",
+    "severity": "Low",
+    "root_cause": "Firewall ACL change",
+    "resolution": "Resolved issue caused by Firewall ACL change",
+    "mttr_minutes": 57
+  },
+  {
+    "incident_id": "INC-1075",
+    "service": "DNS",
+    "region": "Global",
+    "severity": "Critical",
+    "root_cause": "DNS server outage",
+    "resolution": "Resolved issue caused by DNS server outage",
+    "mttr_minutes": 66
+  },
+  {
+    "incident_id": "INC-1076",
+    "service": "SQL",
+    "region": "West Europe",
+    "severity": "Critical",
+    "root_cause": "Maintenance window failure",
+    "resolution": "Resolved issue caused by Maintenance window failure",
+    "mttr_minutes": 17
+  },
+  {
+    "incident_id": "INC-1077",
+    "service": "App Service",
+    "region": "Global",
+    "severity": "Critical",
+    "root_cause": "Runtime crash",
+    "resolution": "Resolved issue caused by Runtime crash",
+    "mttr_minutes": 30
+  },
+  {
+    "incident_id": "INC-1078",
+    "service": "App Service",
+    "region": "East US",
+    "severity": "High",
+    "root_cause": "Runtime crash",
+    "resolution": "Resolved issue caused by Runtime crash",
+    "mttr_minutes": 106
+  },
+  {
+    "incident_id": "INC-1079",
+    "service": "SQL",
+    "region": "Global",
+    "severity": "Critical",
+    "root_cause": "Maintenance window failure",
+    "resolution": "Resolved issue caused by Maintenance window failure",
+    "mttr_minutes": 41
+  },
+  {
+    "incident_id": "INC-1080",
+    "service": "Storage",
+    "region": "Global",
+    "severity": "Low",
+    "root_cause": "Access key rotation issue",
+    "resolution": "Resolved issue caused by Access key rotation issue",
+    "mttr_minutes": 134
+  },
+  {
+    "incident_id": "INC-1081",
+    "service": "VPN",
+    "region": "APAC",
+    "severity": "Low",
+    "root_cause": "Firewall ACL change",
+    "resolution": "Resolved issue caused by Firewall ACL change",
+    "mttr_minutes": 58
+  },
+  {
+    "incident_id": "INC-1082",
+    "service": "VPN",
+    "region": "East US",
+    "severity": "Critical",
+    "root_cause": "Certificate expiration",
+    "resolution": "Resolved issue caused by Certificate expiration",
+    "mttr_minutes": 89
+  },
+  {
+    "incident_id": "INC-1083",
+    "service": "SQL",
+    "region": "Global",
+    "severity": "High",
+    "root_cause": "Maintenance window failure",
+    "resolution": "Resolved issue caused by Maintenance window failure",
+    "mttr_minutes": 140
+  },
+  {
+    "incident_id": "INC-1084",
+    "service": "BGP",
+    "region": "West Europe",
+    "severity": "Low",
+    "root_cause": "Neighbor flapping",
+    "resolution": "Resolved issue caused by Neighbor flapping",
+    "mttr_minutes": 67
+  },
+  {
+    "incident_id": "INC-1085",
+    "service": "DNS",
+    "region": "West Europe",
+    "severity": "Medium",
+    "root_cause": "DNS zone corruption",
+    "resolution": "Resolved issue caused by DNS zone corruption",
+    "mttr_minutes": 64
+  },
+  {
+    "incident_id": "INC-1086",
+    "service": "Storage",
+    "region": "Global",
+    "severity": "Low",
+    "root_cause": "Replication failure",
+    "resolution": "Resolved issue caused by Replication failure",
+    "mttr_minutes": 30
+  },
+  {
+    "incident_id": "INC-1087",
+    "service": "App Service",
+    "region": "East US",
+    "severity": "High",
+    "root_cause": "Scaling issue",
+    "resolution": "Resolved issue caused by Scaling issue",
+    "mttr_minutes": 62
+  },
+  {
+    "incident_id": "INC-1088",
+    "service": "VPN",
+    "region": "East US",
+    "severity": "Medium",
+    "root_cause": "Firewall ACL change",
+    "resolution": "Resolved issue caused by Firewall ACL change",
+    "mttr_minutes": 38
+  },
+  {
+    "incident_id": "INC-1089",
+    "service": "Key Vault",
+    "region": "Global",
+    "severity": "Medium",
+    "root_cause": "Network restriction issue",
+    "resolution": "Resolved issue caused by Network restriction issue",
+    "mttr_minutes": 89
+  },
+  {
+    "incident_id": "INC-1090",
+    "service": "Key Vault",
+    "region": "Global",
+    "severity": "High",
+    "root_cause": "Secret expiration",
+    "resolution": "Resolved issue caused by Secret expiration",
+    "mttr_minutes": 30
+  },
+  {
+    "incident_id": "INC-1091",
+    "service": "VPN",
+    "region": "West Europe",
+    "severity": "Low",
+    "root_cause": "Firewall ACL change",
+    "resolution": "Resolved issue caused by Firewall ACL change",
+    "mttr_minutes": 59
+  },
+  {
+    "incident_id": "INC-1092",
+    "service": "Key Vault",
+    "region": "Global",
+    "severity": "Low",
+    "root_cause": "RBAC misconfiguration",
+    "resolution": "Resolved issue caused by RBAC misconfiguration",
+    "mttr_minutes": 113
+  },
+  {
+    "incident_id": "INC-1093",
+    "service": "BGP",
+    "region": "Global",
+    "severity": "High",
+    "root_cause": "Incorrect route advertisement",
+    "resolution": "Resolved issue caused by Incorrect route advertisement",
+    "mttr_minutes": 66
+  },
+  {
+    "incident_id": "INC-1094",
+    "service": "BGP",
+    "region": "APAC",
+    "severity": "Low",
+    "root_cause": "Incorrect route advertisement",
+    "resolution": "Resolved issue caused by Incorrect route advertisement",
+    "mttr_minutes": 124
+  },
+  {
+    "incident_id": "INC-1095",
+    "service": "DNS",
+    "region": "East US",
+    "severity": "Critical",
+    "root_cause": "DNS zone corruption",
+    "resolution": "Resolved issue caused by DNS zone corruption",
+    "mttr_minutes": 177
+  },
+  {
+    "incident_id": "INC-1096",
+    "service": "DNS",
+    "region": "West Europe",
+    "severity": "High",
+    "root_cause": "DNS server outage",
+    "resolution": "Resolved issue caused by DNS server outage",
+    "mttr_minutes": 92
+  },
+  {
+    "incident_id": "INC-1097",
+    "service": "Storage",
+    "region": "West Europe",
+    "severity": "Medium",
+    "root_cause": "Storage account outage",
+    "resolution": "Resolved issue caused by Storage account outage",
+    "mttr_minutes": 165
+  },
+  {
+    "incident_id": "INC-1098",
+    "service": "App Service",
+    "region": "East US",
+    "severity": "Critical",
+    "root_cause": "Scaling issue",
+    "resolution": "Resolved issue caused by Scaling issue",
+    "mttr_minutes": 19
+  },
+  {
+    "incident_id": "INC-1099",
+    "service": "Storage",
+    "region": "East US",
+    "severity": "High",
+    "root_cause": "Access key rotation issue",
+    "resolution": "Resolved issue caused by Access key rotation issue",
+    "mttr_minutes": 31
+  },
+  {
+    "incident_id": "INC-1100",
+    "service": "SQL",
+    "region": "East US",
+    "severity": "High",
+    "root_cause": "Maintenance window failure",
+    "resolution": "Resolved issue caused by Maintenance window failure",
+    "mttr_minutes": 147
+  }
+]

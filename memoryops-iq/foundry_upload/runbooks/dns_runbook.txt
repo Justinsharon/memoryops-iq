@@ -1,0 +1,19 @@
+RUNBOOK
+
+Service: DNS
+
+Purpose:
+Standard troubleshooting procedure for DNS incidents.
+
+Procedure:
+
+1. Check DNS server availability
+2. Validate DNS records
+3. Review recent configuration changes
+4. Flush DNS cache
+
+Escalation:
+Contact Platform Operations Team
+
+Success Criteria:
+Service restored and monitoring alerts cleared.

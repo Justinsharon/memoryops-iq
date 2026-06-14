@@ -1,0 +1,40 @@
+
+CHANGE RECORD
+
+Change ID: CHG-1042
+
+Service:
+SQL
+
+Region:
+West Europe
+
+Change Type:
+Connection Pool Configuration
+
+Risk Level:
+Low
+
+Change Start:
+2026-06-08 10:31:27
+
+Change End:
+2026-06-08 10:41:27
+
+Implemented By:
+Network Operations Team
+
+Approval Status:
+Emergency Approved
+
+Implementation Summary:
+A planned change was implemented affecting SQL.
+
+Validation Result:
+Passed
+
+Rollback Plan:
+Rollback to previous known-good configuration.
+
+Status:
+Unsuccessful

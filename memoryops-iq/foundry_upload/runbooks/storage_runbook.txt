@@ -1,0 +1,19 @@
+RUNBOOK
+
+Service: Storage
+
+Purpose:
+Standard troubleshooting procedure for Storage incidents.
+
+Procedure:
+
+1. Verify storage account status
+2. Check replication health
+3. Review access policies
+4. Validate network access
+
+Escalation:
+Contact Platform Operations Team
+
+Success Criteria:
+Service restored and monitoring alerts cleared.

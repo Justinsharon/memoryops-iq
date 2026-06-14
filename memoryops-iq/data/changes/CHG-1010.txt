@@ -1,0 +1,40 @@
+
+CHANGE RECORD
+
+Change ID: CHG-1010
+
+Service:
+VPN
+
+Region:
+West Europe
+
+Change Type:
+Certificate Renewal
+
+Risk Level:
+Medium
+
+Change Start:
+2026-06-07 03:31:27
+
+Change End:
+2026-06-07 03:43:27
+
+Implemented By:
+Infrastructure Team
+
+Approval Status:
+Emergency Approved
+
+Implementation Summary:
+A planned change was implemented affecting VPN.
+
+Validation Result:
+Passed
+
+Rollback Plan:
+Rollback to previous known-good configuration.
+
+Status:
+Unsuccessful

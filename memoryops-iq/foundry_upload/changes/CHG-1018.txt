@@ -1,0 +1,40 @@
+
+CHANGE RECORD
+
+Change ID: CHG-1018
+
+Service:
+DNS
+
+Region:
+West Europe
+
+Change Type:
+DNS Zone Update
+
+Risk Level:
+Medium
+
+Change Start:
+2026-06-08 12:31:27
+
+Change End:
+2026-06-08 12:41:27
+
+Implemented By:
+Network Operations Team
+
+Approval Status:
+Emergency Approved
+
+Implementation Summary:
+A planned change was implemented affecting DNS.
+
+Validation Result:
+Failed
+
+Rollback Plan:
+Rollback to previous known-good configuration.
+
+Status:
+Successful

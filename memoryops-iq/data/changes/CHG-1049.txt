@@ -1,0 +1,40 @@
+
+CHANGE RECORD
+
+Change ID: CHG-1049
+
+Service:
+Storage
+
+Region:
+APAC
+
+Change Type:
+Storage Account Configuration
+
+Risk Level:
+Low
+
+Change Start:
+2026-06-07 22:31:27
+
+Change End:
+2026-06-07 22:46:27
+
+Implemented By:
+Infrastructure Team
+
+Approval Status:
+Emergency Approved
+
+Implementation Summary:
+A planned change was implemented affecting Storage.
+
+Validation Result:
+Passed
+
+Rollback Plan:
+Rollback to previous known-good configuration.
+
+Status:
+Successful

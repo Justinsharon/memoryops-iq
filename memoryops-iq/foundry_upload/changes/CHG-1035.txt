@@ -1,0 +1,40 @@
+
+CHANGE RECORD
+
+Change ID: CHG-1035
+
+Service:
+SQL
+
+Region:
+East US
+
+Change Type:
+Connection Pool Configuration
+
+Risk Level:
+Medium
+
+Change Start:
+2026-06-07 08:31:27
+
+Change End:
+2026-06-07 09:31:27
+
+Implemented By:
+Infrastructure Team
+
+Approval Status:
+Approved
+
+Implementation Summary:
+A planned change was implemented affecting SQL.
+
+Validation Result:
+Failed
+
+Rollback Plan:
+Rollback to previous known-good configuration.
+
+Status:
+Successful

@@ -1,0 +1,19 @@
+RUNBOOK
+
+Service: Key Vault
+
+Purpose:
+Standard troubleshooting procedure for Key Vault incidents.
+
+Procedure:
+
+1. Verify RBAC assignments
+2. Check secret expiration
+3. Validate network restrictions
+4. Review audit logs
+
+Escalation:
+Contact Platform Operations Team
+
+Success Criteria:
+Service restored and monitoring alerts cleared.

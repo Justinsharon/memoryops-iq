@@ -1,0 +1,40 @@
+
+CHANGE RECORD
+
+Change ID: CHG-1069
+
+Service:
+Key Vault
+
+Region:
+Global
+
+Change Type:
+Access Policy Change
+
+Risk Level:
+Medium
+
+Change Start:
+2026-06-07 19:31:27
+
+Change End:
+2026-06-07 19:51:27
+
+Implemented By:
+Network Operations Team
+
+Approval Status:
+Emergency Approved
+
+Implementation Summary:
+A planned change was implemented affecting Key Vault.
+
+Validation Result:
+Passed
+
+Rollback Plan:
+Rollback to previous known-good configuration.
+
+Status:
+Partially Successful

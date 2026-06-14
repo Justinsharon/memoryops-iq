@@ -1,0 +1,40 @@
+
+CHANGE RECORD
+
+Change ID: CHG-1021
+
+Service:
+DNS
+
+Region:
+West Europe
+
+Change Type:
+DNS Server Patch
+
+Risk Level:
+High
+
+Change Start:
+2026-06-08 06:31:27
+
+Change End:
+2026-06-08 07:30:27
+
+Implemented By:
+Cloud Operations Team
+
+Approval Status:
+Emergency Approved
+
+Implementation Summary:
+A planned change was implemented affecting DNS.
+
+Validation Result:
+Passed
+
+Rollback Plan:
+Rollback to previous known-good configuration.
+
+Status:
+Partially Successful

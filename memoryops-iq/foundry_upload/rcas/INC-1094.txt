@@ -1,0 +1,33 @@
+
+ROOT CAUSE ANALYSIS
+
+Incident ID: INC-1094
+
+Service:
+BGP
+
+Region:
+APAC
+
+Severity:
+Low
+
+Root Cause:
+Incorrect route advertisement
+
+Impact:
+Service disruption affecting enterprise users.
+
+Resolution:
+Resolved issue caused by Incorrect route advertisement
+
+MTTR:
+124 minutes
+
+Lessons Learned:
+Additional monitoring and validation should be implemented to reduce recurrence.
+
+Preventive Actions:
+1. Improve alerting.
+2. Validate changes before deployment.
+3. Enhance operational runbooks.

@@ -1,0 +1,19 @@
+RUNBOOK
+
+Service: App Service
+
+Purpose:
+Standard troubleshooting procedure for App Service incidents.
+
+Procedure:
+
+1. Check deployment status
+2. Review application logs
+3. Inspect scaling configuration
+4. Restart application instance
+
+Escalation:
+Contact Platform Operations Team
+
+Success Criteria:
+Service restored and monitoring alerts cleared.

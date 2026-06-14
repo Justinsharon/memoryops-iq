@@ -1,0 +1,40 @@
+
+CHANGE RECORD
+
+Change ID: CHG-1086
+
+Service:
+BGP
+
+Region:
+Global
+
+Change Type:
+Neighbor Configuration Change
+
+Risk Level:
+Low
+
+Change Start:
+2026-06-08 15:31:27
+
+Change End:
+2026-06-08 16:04:27
+
+Implemented By:
+Infrastructure Team
+
+Approval Status:
+Approved
+
+Implementation Summary:
+A planned change was implemented affecting BGP.
+
+Validation Result:
+Passed
+
+Rollback Plan:
+Rollback to previous known-good configuration.
+
+Status:
+Successful

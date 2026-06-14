@@ -1,0 +1,40 @@
+
+CHANGE RECORD
+
+Change ID: CHG-1019
+
+Service:
+DNS
+
+Region:
+West Europe
+
+Change Type:
+DNS Zone Update
+
+Risk Level:
+Low
+
+Change Start:
+2026-06-07 20:31:27
+
+Change End:
+2026-06-07 20:41:27
+
+Implemented By:
+Platform Engineering Team
+
+Approval Status:
+Emergency Approved
+
+Implementation Summary:
+A planned change was implemented affecting DNS.
+
+Validation Result:
+Passed
+
+Rollback Plan:
+Rollback to previous known-good configuration.
+
+Status:
+Successful

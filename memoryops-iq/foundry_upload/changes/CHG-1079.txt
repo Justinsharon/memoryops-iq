@@ -1,0 +1,40 @@
+
+CHANGE RECORD
+
+Change ID: CHG-1079
+
+Service:
+App Service
+
+Region:
+East US
+
+Change Type:
+Scaling Configuration Change
+
+Risk Level:
+Low
+
+Change Start:
+2026-05-17 12:31:27
+
+Change End:
+2026-05-17 12:44:27
+
+Implemented By:
+Platform Engineering Team
+
+Approval Status:
+Standard Approved
+
+Implementation Summary:
+A planned change was implemented affecting App Service.
+
+Validation Result:
+Passed with Warnings
+
+Rollback Plan:
+Rollback to previous known-good configuration.
+
+Status:
+Successful

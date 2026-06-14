@@ -1,0 +1,40 @@
+
+CHANGE RECORD
+
+Change ID: CHG-1071
+
+Service:
+App Service
+
+Region:
+Global
+
+Change Type:
+Scaling Configuration Change
+
+Risk Level:
+Low
+
+Change Start:
+2026-06-08 03:31:27
+
+Change End:
+2026-06-08 03:47:27
+
+Implemented By:
+Infrastructure Team
+
+Approval Status:
+Approved
+
+Implementation Summary:
+A planned change was implemented affecting App Service.
+
+Validation Result:
+Passed
+
+Rollback Plan:
+Rollback to previous known-good configuration.
+
+Status:
+Successful

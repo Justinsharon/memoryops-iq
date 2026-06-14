@@ -1,0 +1,77 @@
+/* RESET */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* FULL SCREEN APP */
+
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+}
+
+/* GLOBAL THEME */
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #04142c;
+  color: white;
+  overflow-x: hidden;
+}
+
+/* ROOT CONTAINER */
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* LINKS */
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* FORM ELEMENTS */
+
+button,
+input,
+textarea {
+  font-family: inherit;
+  outline: none;
+}
+
+/* REMOVE DEFAULT INPUT STYLING */
+
+input,
+textarea {
+  border: none;
+}
+
+/* SCROLLBAR */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #031125;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0e2f63;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #184b96;
+}

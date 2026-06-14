@@ -1,0 +1,40 @@
+
+CHANGE RECORD
+
+Change ID: CHG-1031
+
+Service:
+SQL
+
+Region:
+Global
+
+Change Type:
+Database Maintenance
+
+Risk Level:
+High
+
+Change Start:
+2026-06-07 21:31:27
+
+Change End:
+2026-06-07 21:56:27
+
+Implemented By:
+Cloud Operations Team
+
+Approval Status:
+Standard Approved
+
+Implementation Summary:
+A planned change was implemented affecting SQL.
+
+Validation Result:
+Passed
+
+Rollback Plan:
+Rollback to previous known-good configuration.
+
+Status:
+Successful

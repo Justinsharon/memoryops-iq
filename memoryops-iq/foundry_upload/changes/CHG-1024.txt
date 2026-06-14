@@ -1,0 +1,40 @@
+
+CHANGE RECORD
+
+Change ID: CHG-1024
+
+Service:
+DNS
+
+Region:
+East US
+
+Change Type:
+DNS Server Patch
+
+Risk Level:
+High
+
+Change Start:
+2026-05-27 17:31:27
+
+Change End:
+2026-05-27 18:22:27
+
+Implemented By:
+Platform Engineering Team
+
+Approval Status:
+Emergency Approved
+
+Implementation Summary:
+A planned change was implemented affecting DNS.
+
+Validation Result:
+Passed
+
+Rollback Plan:
+Rollback to previous known-good configuration.
+
+Status:
+Successful

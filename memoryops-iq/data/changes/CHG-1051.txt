@@ -1,0 +1,40 @@
+
+CHANGE RECORD
+
+Change ID: CHG-1051
+
+Service:
+Storage
+
+Region:
+APAC
+
+Change Type:
+Replication Configuration Update
+
+Risk Level:
+High
+
+Change Start:
+2026-05-31 21:31:27
+
+Change End:
+2026-05-31 22:01:27
+
+Implemented By:
+Network Operations Team
+
+Approval Status:
+Standard Approved
+
+Implementation Summary:
+A planned change was implemented affecting Storage.
+
+Validation Result:
+Passed with Warnings
+
+Rollback Plan:
+Rollback to previous known-good configuration.
+
+Status:
+Successful

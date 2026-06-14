@@ -1,0 +1,33 @@
+
+ROOT CAUSE ANALYSIS
+
+Incident ID: INC-1041
+
+Service:
+DNS
+
+Region:
+West Europe
+
+Severity:
+High
+
+Root Cause:
+DNS zone corruption
+
+Impact:
+Service disruption affecting enterprise users.
+
+Resolution:
+Resolved issue caused by DNS zone corruption
+
+MTTR:
+76 minutes
+
+Lessons Learned:
+Additional monitoring and validation should be implemented to reduce recurrence.
+
+Preventive Actions:
+1. Improve alerting.
+2. Validate changes before deployment.
+3. Enhance operational runbooks.

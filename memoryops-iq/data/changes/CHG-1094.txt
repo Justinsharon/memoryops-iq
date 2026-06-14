@@ -1,0 +1,40 @@
+
+CHANGE RECORD
+
+Change ID: CHG-1094
+
+Service:
+BGP
+
+Region:
+West Europe
+
+Change Type:
+Routing Configuration Change
+
+Risk Level:
+High
+
+Change Start:
+2026-05-30 15:31:27
+
+Change End:
+2026-05-30 16:20:27
+
+Implemented By:
+Network Operations Team
+
+Approval Status:
+Standard Approved
+
+Implementation Summary:
+A planned change was implemented affecting BGP.
+
+Validation Result:
+Failed
+
+Rollback Plan:
+Rollback to previous known-good configuration.
+
+Status:
+Rolled Back

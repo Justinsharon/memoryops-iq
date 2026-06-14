@@ -1,0 +1,19 @@
+RUNBOOK
+
+Service: VPN
+
+Purpose:
+Standard troubleshooting procedure for VPN incidents.
+
+Procedure:
+
+1. Verify VPN Gateway health
+2. Check firewall ACL changes
+3. Validate route propagation
+4. Rollback recent network changes
+
+Escalation:
+Contact Platform Operations Team
+
+Success Criteria:
+Service restored and monitoring alerts cleared.

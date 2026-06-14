@@ -1,0 +1,40 @@
+
+CHANGE RECORD
+
+Change ID: CHG-1030
+
+Service:
+SQL
+
+Region:
+Global
+
+Change Type:
+Index Rebuild
+
+Risk Level:
+Medium
+
+Change Start:
+2026-05-26 01:31:27
+
+Change End:
+2026-05-26 01:59:27
+
+Implemented By:
+Platform Engineering Team
+
+Approval Status:
+Emergency Approved
+
+Implementation Summary:
+A planned change was implemented affecting SQL.
+
+Validation Result:
+Passed
+
+Rollback Plan:
+Rollback to previous known-good configuration.
+
+Status:
+Successful

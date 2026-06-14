@@ -1,0 +1,40 @@
+
+CHANGE RECORD
+
+Change ID: CHG-1005
+
+Service:
+VPN
+
+Region:
+East US
+
+Change Type:
+Firewall ACL Change
+
+Risk Level:
+Low
+
+Change Start:
+2026-06-08 15:31:27
+
+Change End:
+2026-06-08 16:20:27
+
+Implemented By:
+Infrastructure Team
+
+Approval Status:
+Emergency Approved
+
+Implementation Summary:
+A planned change was implemented affecting VPN.
+
+Validation Result:
+Passed with Warnings
+
+Rollback Plan:
+Rollback to previous known-good configuration.
+
+Status:
+Partially Successful

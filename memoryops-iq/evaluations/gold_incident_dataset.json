@@ -1,0 +1,902 @@
+[
+    {
+        "id": 1,
+        "input": "Remote users unable to connect via VPN in West Europe",
+        "expected": {
+            "service": "VPN",
+            "region": "West Europe",
+            "category": "Network"
+        }
+    },
+    {
+        "id": 2,
+        "input": "App Service deployment failed after pipeline update in West Europe",
+        "expected": {
+            "service": "App Service",
+            "region": "West Europe",
+            "category": "Cloud"
+        }
+    },
+    {
+        "id": 3,
+        "input": "Certificate expired causing HTTPS failures in Global",
+        "expected": {
+            "service": "Certificate",
+            "region": "Global",
+            "category": "Security"
+        }
+    },
+    {
+        "id": 4,
+        "input": "Azure SQL database unavailable in West Europe",
+        "expected": {
+            "service": "SQL",
+            "region": "West Europe",
+            "category": "Cloud"
+        }
+    },
+    {
+        "id": 5,
+        "input": "Applications unable to retrieve secrets from Key Vault in APAC",
+        "expected": {
+            "service": "Key Vault",
+            "region": "APAC",
+            "category": "Security"
+        }
+    },
+    {
+        "id": 6,
+        "input": "Users unable to authenticate after policy update in APAC",
+        "expected": {
+            "service": "Identity",
+            "region": "APAC",
+            "category": "Security"
+        }
+    },
+    {
+        "id": 7,
+        "input": "Users unable to authenticate after policy update in APAC",
+        "expected": {
+            "service": "Identity",
+            "region": "APAC",
+            "category": "Security"
+        }
+    },
+    {
+        "id": 8,
+        "input": "Azure SQL database unavailable in APAC",
+        "expected": {
+            "service": "SQL",
+            "region": "APAC",
+            "category": "Cloud"
+        }
+    },
+    {
+        "id": 9,
+        "input": "BGP route instability impacting connectivity in East US",
+        "expected": {
+            "service": "Routing",
+            "region": "East US",
+            "category": "Network"
+        }
+    },
+    {
+        "id": 10,
+        "input": "Firewall policy change causing connectivity issues in APAC",
+        "expected": {
+            "service": "Firewall",
+            "region": "APAC",
+            "category": "Network"
+        }
+    },
+    {
+        "id": 11,
+        "input": "App Service deployment failed after pipeline update in East US",
+        "expected": {
+            "service": "App Service",
+            "region": "East US",
+            "category": "Cloud"
+        }
+    },
+    {
+        "id": 12,
+        "input": "SQL connections timing out in West Europe",
+        "expected": {
+            "service": "SQL",
+            "region": "West Europe",
+            "category": "Cloud"
+        }
+    },
+    {
+        "id": 13,
+        "input": "Key Vault access denied after RBAC modification in Global",
+        "expected": {
+            "service": "Key Vault",
+            "region": "Global",
+            "category": "Security"
+        }
+    },
+    {
+        "id": 14,
+        "input": "DNS resolution failures impacting applications in East US",
+        "expected": {
+            "service": "DNS",
+            "region": "East US",
+            "category": "Network"
+        }
+    },
+    {
+        "id": 15,
+        "input": "Firewall ACL update blocking traffic in East US",
+        "expected": {
+            "service": "Firewall",
+            "region": "East US",
+            "category": "Network"
+        }
+    },
+    {
+        "id": 16,
+        "input": "Firewall ACL update blocking traffic in East US",
+        "expected": {
+            "service": "Firewall",
+            "region": "East US",
+            "category": "Network"
+        }
+    },
+    {
+        "id": 17,
+        "input": "Routing issues detected across network backbone in APAC",
+        "expected": {
+            "service": "Routing",
+            "region": "APAC",
+            "category": "Network"
+        }
+    },
+    {
+        "id": 18,
+        "input": "Certificate expired causing HTTPS failures in APAC",
+        "expected": {
+            "service": "Certificate",
+            "region": "APAC",
+            "category": "Security"
+        }
+    },
+    {
+        "id": 19,
+        "input": "Azure SQL database unavailable in West Europe",
+        "expected": {
+            "service": "SQL",
+            "region": "West Europe",
+            "category": "Cloud"
+        }
+    },
+    {
+        "id": 20,
+        "input": "Key Vault access denied after RBAC modification in West Europe",
+        "expected": {
+            "service": "Key Vault",
+            "region": "West Europe",
+            "category": "Security"
+        }
+    },
+    {
+        "id": 21,
+        "input": "Firewall ACL update blocking traffic in APAC",
+        "expected": {
+            "service": "Firewall",
+            "region": "APAC",
+            "category": "Network"
+        }
+    },
+    {
+        "id": 22,
+        "input": "App Service deployment failed after pipeline update in Global",
+        "expected": {
+            "service": "App Service",
+            "region": "Global",
+            "category": "Cloud"
+        }
+    },
+    {
+        "id": 23,
+        "input": "SQL connections timing out in Global",
+        "expected": {
+            "service": "SQL",
+            "region": "Global",
+            "category": "Cloud"
+        }
+    },
+    {
+        "id": 24,
+        "input": "BGP route instability impacting connectivity in APAC",
+        "expected": {
+            "service": "Routing",
+            "region": "APAC",
+            "category": "Network"
+        }
+    },
+    {
+        "id": 25,
+        "input": "Azure SQL database unavailable in Global",
+        "expected": {
+            "service": "SQL",
+            "region": "Global",
+            "category": "Cloud"
+        }
+    },
+    {
+        "id": 26,
+        "input": "Customers reporting DNS lookup failures in APAC",
+        "expected": {
+            "service": "DNS",
+            "region": "APAC",
+            "category": "Network"
+        }
+    },
+    {
+        "id": 27,
+        "input": "DNS resolution failures impacting applications in APAC",
+        "expected": {
+            "service": "DNS",
+            "region": "APAC",
+            "category": "Network"
+        }
+    },
+    {
+        "id": 28,
+        "input": "Firewall policy change causing connectivity issues in Global",
+        "expected": {
+            "service": "Firewall",
+            "region": "Global",
+            "category": "Network"
+        }
+    },
+    {
+        "id": 29,
+        "input": "VPN outage affecting users in APAC",
+        "expected": {
+            "service": "VPN",
+            "region": "APAC",
+            "category": "Network"
+        }
+    },
+    {
+        "id": 30,
+        "input": "BGP route instability impacting connectivity in Global",
+        "expected": {
+            "service": "Routing",
+            "region": "Global",
+            "category": "Network"
+        }
+    },
+    {
+        "id": 31,
+        "input": "Routing issues detected across network backbone in Global",
+        "expected": {
+            "service": "Routing",
+            "region": "Global",
+            "category": "Network"
+        }
+    },
+    {
+        "id": 32,
+        "input": "Certificate expired causing HTTPS failures in East US",
+        "expected": {
+            "service": "Certificate",
+            "region": "East US",
+            "category": "Security"
+        }
+    },
+    {
+        "id": 33,
+        "input": "Remote users unable to connect via VPN in APAC",
+        "expected": {
+            "service": "VPN",
+            "region": "APAC",
+            "category": "Network"
+        }
+    },
+    {
+        "id": 34,
+        "input": "MFA failures impacting user sign in across West Europe",
+        "expected": {
+            "service": "Identity",
+            "region": "West Europe",
+            "category": "Security"
+        }
+    },
+    {
+        "id": 35,
+        "input": "Customers reporting DNS lookup failures in Global",
+        "expected": {
+            "service": "DNS",
+            "region": "Global",
+            "category": "Network"
+        }
+    },
+    {
+        "id": 36,
+        "input": "Certificate expired causing HTTPS failures in West Europe",
+        "expected": {
+            "service": "Certificate",
+            "region": "West Europe",
+            "category": "Security"
+        }
+    },
+    {
+        "id": 37,
+        "input": "Azure Storage account unavailable in West Europe",
+        "expected": {
+            "service": "Storage",
+            "region": "West Europe",
+            "category": "Cloud"
+        }
+    },
+    {
+        "id": 38,
+        "input": "Azure Storage account unavailable in APAC",
+        "expected": {
+            "service": "Storage",
+            "region": "APAC",
+            "category": "Cloud"
+        }
+    },
+    {
+        "id": 39,
+        "input": "BGP route instability impacting connectivity in APAC",
+        "expected": {
+            "service": "Routing",
+            "region": "APAC",
+            "category": "Network"
+        }
+    },
+    {
+        "id": 40,
+        "input": "Routing issues detected across network backbone in West Europe",
+        "expected": {
+            "service": "Routing",
+            "region": "West Europe",
+            "category": "Network"
+        }
+    },
+    {
+        "id": 41,
+        "input": "VPN outage affecting users in Global",
+        "expected": {
+            "service": "VPN",
+            "region": "Global",
+            "category": "Network"
+        }
+    },
+    {
+        "id": 42,
+        "input": "Customers reporting DNS lookup failures in West Europe",
+        "expected": {
+            "service": "DNS",
+            "region": "West Europe",
+            "category": "Network"
+        }
+    },
+    {
+        "id": 43,
+        "input": "Certificate expired causing HTTPS failures in Global",
+        "expected": {
+            "service": "Certificate",
+            "region": "Global",
+            "category": "Security"
+        }
+    },
+    {
+        "id": 44,
+        "input": "DNS resolution failures impacting applications in Global",
+        "expected": {
+            "service": "DNS",
+            "region": "Global",
+            "category": "Network"
+        }
+    },
+    {
+        "id": 45,
+        "input": "DNS resolution failures impacting applications in West Europe",
+        "expected": {
+            "service": "DNS",
+            "region": "West Europe",
+            "category": "Network"
+        }
+    },
+    {
+        "id": 46,
+        "input": "Routing issues detected across network backbone in East US",
+        "expected": {
+            "service": "Routing",
+            "region": "East US",
+            "category": "Network"
+        }
+    },
+    {
+        "id": 47,
+        "input": "Key Vault access denied after RBAC modification in APAC",
+        "expected": {
+            "service": "Key Vault",
+            "region": "APAC",
+            "category": "Security"
+        }
+    },
+    {
+        "id": 48,
+        "input": "Application deployment failure in App Service in East US",
+        "expected": {
+            "service": "App Service",
+            "region": "East US",
+            "category": "Cloud"
+        }
+    },
+    {
+        "id": 49,
+        "input": "BGP route instability impacting connectivity in Global",
+        "expected": {
+            "service": "Routing",
+            "region": "Global",
+            "category": "Network"
+        }
+    },
+    {
+        "id": 50,
+        "input": "Users unable to authenticate after policy update in Global",
+        "expected": {
+            "service": "Identity",
+            "region": "Global",
+            "category": "Security"
+        }
+    },
+    {
+        "id": 51,
+        "input": "Applications unable to retrieve secrets from Key Vault in West Europe",
+        "expected": {
+            "service": "Key Vault",
+            "region": "West Europe",
+            "category": "Security"
+        }
+    },
+    {
+        "id": 52,
+        "input": "Routing issues detected across network backbone in West Europe",
+        "expected": {
+            "service": "Routing",
+            "region": "West Europe",
+            "category": "Network"
+        }
+    },
+    {
+        "id": 53,
+        "input": "Users unable to authenticate after policy update in Global",
+        "expected": {
+            "service": "Identity",
+            "region": "Global",
+            "category": "Security"
+        }
+    },
+    {
+        "id": 54,
+        "input": "DNS resolution failures impacting applications in APAC",
+        "expected": {
+            "service": "DNS",
+            "region": "APAC",
+            "category": "Network"
+        }
+    },
+    {
+        "id": 55,
+        "input": "Users unable to authenticate after policy update in East US",
+        "expected": {
+            "service": "Identity",
+            "region": "East US",
+            "category": "Security"
+        }
+    },
+    {
+        "id": 56,
+        "input": "Blob storage access failures reported in Global",
+        "expected": {
+            "service": "Storage",
+            "region": "Global",
+            "category": "Cloud"
+        }
+    },
+    {
+        "id": 57,
+        "input": "Routing issues detected across network backbone in West Europe",
+        "expected": {
+            "service": "Routing",
+            "region": "West Europe",
+            "category": "Network"
+        }
+    },
+    {
+        "id": 58,
+        "input": "SQL connections timing out in West Europe",
+        "expected": {
+            "service": "SQL",
+            "region": "West Europe",
+            "category": "Cloud"
+        }
+    },
+    {
+        "id": 59,
+        "input": "Customers reporting DNS lookup failures in Global",
+        "expected": {
+            "service": "DNS",
+            "region": "Global",
+            "category": "Network"
+        }
+    },
+    {
+        "id": 60,
+        "input": "Key Vault access denied after RBAC modification in West Europe",
+        "expected": {
+            "service": "Key Vault",
+            "region": "West Europe",
+            "category": "Security"
+        }
+    },
+    {
+        "id": 61,
+        "input": "Firewall ACL update blocking traffic in Global",
+        "expected": {
+            "service": "Firewall",
+            "region": "Global",
+            "category": "Network"
+        }
+    },
+    {
+        "id": 62,
+        "input": "Applications unable to retrieve secrets from Key Vault in West Europe",
+        "expected": {
+            "service": "Key Vault",
+            "region": "West Europe",
+            "category": "Security"
+        }
+    },
+    {
+        "id": 63,
+        "input": "Firewall ACL update blocking traffic in Global",
+        "expected": {
+            "service": "Firewall",
+            "region": "Global",
+            "category": "Network"
+        }
+    },
+    {
+        "id": 64,
+        "input": "Applications unable to retrieve secrets from Key Vault in APAC",
+        "expected": {
+            "service": "Key Vault",
+            "region": "APAC",
+            "category": "Security"
+        }
+    },
+    {
+        "id": 65,
+        "input": "DNS resolution failures impacting applications in APAC",
+        "expected": {
+            "service": "DNS",
+            "region": "APAC",
+            "category": "Network"
+        }
+    },
+    {
+        "id": 66,
+        "input": "App Service deployment failed after pipeline update in APAC",
+        "expected": {
+            "service": "App Service",
+            "region": "APAC",
+            "category": "Cloud"
+        }
+    },
+    {
+        "id": 67,
+        "input": "Azure Storage account unavailable in APAC",
+        "expected": {
+            "service": "Storage",
+            "region": "APAC",
+            "category": "Cloud"
+        }
+    },
+    {
+        "id": 68,
+        "input": "SSL certificate issue impacting applications in West Europe",
+        "expected": {
+            "service": "Certificate",
+            "region": "West Europe",
+            "category": "Security"
+        }
+    },
+    {
+        "id": 69,
+        "input": "SQL connections timing out in Global",
+        "expected": {
+            "service": "SQL",
+            "region": "Global",
+            "category": "Cloud"
+        }
+    },
+    {
+        "id": 70,
+        "input": "Users unable to authenticate after policy update in Global",
+        "expected": {
+            "service": "Identity",
+            "region": "Global",
+            "category": "Security"
+        }
+    },
+    {
+        "id": 71,
+        "input": "Application deployment failure in App Service in East US",
+        "expected": {
+            "service": "App Service",
+            "region": "East US",
+            "category": "Cloud"
+        }
+    },
+    {
+        "id": 72,
+        "input": "Blob storage access failures reported in East US",
+        "expected": {
+            "service": "Storage",
+            "region": "East US",
+            "category": "Cloud"
+        }
+    },
+    {
+        "id": 73,
+        "input": "Firewall policy change causing connectivity issues in East US",
+        "expected": {
+            "service": "Firewall",
+            "region": "East US",
+            "category": "Network"
+        }
+    },
+    {
+        "id": 74,
+        "input": "SQL connections timing out in East US",
+        "expected": {
+            "service": "SQL",
+            "region": "East US",
+            "category": "Cloud"
+        }
+    },
+    {
+        "id": 75,
+        "input": "Remote users unable to connect via VPN in East US",
+        "expected": {
+            "service": "VPN",
+            "region": "East US",
+            "category": "Network"
+        }
+    },
+    {
+        "id": 76,
+        "input": "BGP route instability impacting connectivity in East US",
+        "expected": {
+            "service": "Routing",
+            "region": "East US",
+            "category": "Network"
+        }
+    },
+    {
+        "id": 77,
+        "input": "Application deployment failure in App Service in East US",
+        "expected": {
+            "service": "App Service",
+            "region": "East US",
+            "category": "Cloud"
+        }
+    },
+    {
+        "id": 78,
+        "input": "BGP route instability impacting connectivity in Global",
+        "expected": {
+            "service": "Routing",
+            "region": "Global",
+            "category": "Network"
+        }
+    },
+    {
+        "id": 79,
+        "input": "Certificate expired causing HTTPS failures in East US",
+        "expected": {
+            "service": "Certificate",
+            "region": "East US",
+            "category": "Security"
+        }
+    },
+    {
+        "id": 80,
+        "input": "MFA failures impacting user sign in across Global",
+        "expected": {
+            "service": "Identity",
+            "region": "Global",
+            "category": "Security"
+        }
+    },
+    {
+        "id": 81,
+        "input": "Routing issues detected across network backbone in East US",
+        "expected": {
+            "service": "Routing",
+            "region": "East US",
+            "category": "Network"
+        }
+    },
+    {
+        "id": 82,
+        "input": "Firewall ACL update blocking traffic in Global",
+        "expected": {
+            "service": "Firewall",
+            "region": "Global",
+            "category": "Network"
+        }
+    },
+    {
+        "id": 83,
+        "input": "MFA failures impacting user sign in across East US",
+        "expected": {
+            "service": "Identity",
+            "region": "East US",
+            "category": "Security"
+        }
+    },
+    {
+        "id": 84,
+        "input": "Remote users unable to connect via VPN in East US",
+        "expected": {
+            "service": "VPN",
+            "region": "East US",
+            "category": "Network"
+        }
+    },
+    {
+        "id": 85,
+        "input": "Firewall policy change causing connectivity issues in Global",
+        "expected": {
+            "service": "Firewall",
+            "region": "Global",
+            "category": "Network"
+        }
+    },
+    {
+        "id": 86,
+        "input": "Blob storage access failures reported in Global",
+        "expected": {
+            "service": "Storage",
+            "region": "Global",
+            "category": "Cloud"
+        }
+    },
+    {
+        "id": 87,
+        "input": "Customers reporting DNS lookup failures in Global",
+        "expected": {
+            "service": "DNS",
+            "region": "Global",
+            "category": "Network"
+        }
+    },
+    {
+        "id": 88,
+        "input": "Customers reporting DNS lookup failures in APAC",
+        "expected": {
+            "service": "DNS",
+            "region": "APAC",
+            "category": "Network"
+        }
+    },
+    {
+        "id": 89,
+        "input": "SSL certificate issue impacting applications in East US",
+        "expected": {
+            "service": "Certificate",
+            "region": "East US",
+            "category": "Security"
+        }
+    },
+    {
+        "id": 90,
+        "input": "Firewall policy change causing connectivity issues in West Europe",
+        "expected": {
+            "service": "Firewall",
+            "region": "West Europe",
+            "category": "Network"
+        }
+    },
+    {
+        "id": 91,
+        "input": "Firewall policy change causing connectivity issues in Global",
+        "expected": {
+            "service": "Firewall",
+            "region": "Global",
+            "category": "Network"
+        }
+    },
+    {
+        "id": 92,
+        "input": "Firewall ACL update blocking traffic in APAC",
+        "expected": {
+            "service": "Firewall",
+            "region": "APAC",
+            "category": "Network"
+        }
+    },
+    {
+        "id": 93,
+        "input": "Firewall ACL update blocking traffic in Global",
+        "expected": {
+            "service": "Firewall",
+            "region": "Global",
+            "category": "Network"
+        }
+    },
+    {
+        "id": 94,
+        "input": "SQL connections timing out in APAC",
+        "expected": {
+            "service": "SQL",
+            "region": "APAC",
+            "category": "Cloud"
+        }
+    },
+    {
+        "id": 95,
+        "input": "Blob storage access failures reported in West Europe",
+        "expected": {
+            "service": "Storage",
+            "region": "West Europe",
+            "category": "Cloud"
+        }
+    },
+    {
+        "id": 96,
+        "input": "VPN outage affecting users in East US",
+        "expected": {
+            "service": "VPN",
+            "region": "East US",
+            "category": "Network"
+        }
+    },
+    {
+        "id": 97,
+        "input": "Blob storage access failures reported in East US",
+        "expected": {
+            "service": "Storage",
+            "region": "East US",
+            "category": "Cloud"
+        }
+    },
+    {
+        "id": 98,
+        "input": "Firewall policy change causing connectivity issues in Global",
+        "expected": {
+            "service": "Firewall",
+            "region": "Global",
+            "category": "Network"
+        }
+    },
+    {
+        "id": 99,
+        "input": "DNS resolution failures impacting applications in East US",
+        "expected": {
+            "service": "DNS",
+            "region": "East US",
+            "category": "Network"
+        }
+    },
+    {
+        "id": 100,
+        "input": "SSL certificate issue impacting applications in APAC",
+        "expected": {
+            "service": "Certificate",
+            "region": "APAC",
+            "category": "Security"
+        }
+    }
+]
